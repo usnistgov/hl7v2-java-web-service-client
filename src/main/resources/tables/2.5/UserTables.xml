@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLibrary xmlns="http://www.nist.gov/healthcare/data" Description="The set of default HL7 Version 2.5 tables as defined by the standard" OrganizationName="HL7 NIST" TableLibraryVersion="1.0" Status="Active" TableLibraryIdentifier="2.16.840.1.113883.3.72.4.1.00006" Name="User Table v2.5">
+	<TableDefinition Id="0001" Name="Administrative Sex" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="F" DisplayName="Female" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Male" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Ambiguous" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Not applicable" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0002" Name="Marital Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Separated" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Divorced" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Married" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Single" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Widowed" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Common law" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Living together" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Domestic partner" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Registered domestic partner" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Legally Separated" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Annulled" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Interlocutory" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Unmarried" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Unreported" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0004" Name="Patient Class" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Inpatient" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Outpatient" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Preadmit" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Recurring patient" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Obstetrics" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Commercial Account" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Not Applicable" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="VS" DisplayName="vollstation&#xE4;re Behandlung" Source="HL7"/>
+		<TableElement Code="TS" DisplayName="teilstation&#xE4;re Behandlung" Source="HL7"/>
+		<TableElement Code="TK" DisplayName="tagesklinische Behandlung" Source="HL7"/>
+		<TableElement Code="NS" DisplayName="nachstation&#xE4;r" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0005" Name="Race" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1002-5" DisplayName="American Indian or Alaska Native" Source="HL7"/>
+		<TableElement Code="2028-9" DisplayName="Asian" Source="HL7"/>
+		<TableElement Code="2054-5" DisplayName="Black or African American" Source="HL7"/>
+		<TableElement Code="2076-8" DisplayName="Native Hawaiian or Other Pacific Islander" Source="HL7"/>
+		<TableElement Code="2106-3" DisplayName="White" Source="HL7"/>
+		<TableElement Code="2131-1" DisplayName="Other Race" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0006" Name="Religion" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AGN" DisplayName="Agnostic" Source="HL7"/>
+		<TableElement Code="ATH" DisplayName="Atheist" Source="HL7"/>
+		<TableElement Code="BAH" DisplayName="Baha'i" Source="HL7"/>
+		<TableElement Code="BUD" DisplayName="Buddhist" Source="HL7"/>
+		<TableElement Code="BMA" DisplayName="Buddhist: Mahayana" Source="HL7"/>
+		<TableElement Code="BTH" DisplayName="Buddhist: Theravada" Source="HL7"/>
+		<TableElement Code="BTA" DisplayName="Buddhist: Tantrayana" Source="HL7"/>
+		<TableElement Code="BOT" DisplayName="Buddhist: Other" Source="HL7"/>
+		<TableElement Code="CFR" DisplayName="Chinese Folk Religionist" Source="HL7"/>
+		<TableElement Code="CHR" DisplayName="Christian" Source="HL7"/>
+		<TableElement Code="ABC" DisplayName="Christian: American Baptist Church" Source="HL7"/>
+		<TableElement Code="AMT" DisplayName="Christian: African Methodist Episcopal" Source="HL7"/>
+		<TableElement Code="AME" DisplayName="Christian: African Methodist Episcopal Zion" Source="HL7"/>
+		<TableElement Code="ANG" DisplayName="Christian: Anglican" Source="HL7"/>
+		<TableElement Code="AOG" DisplayName="Christian: Assembly of God" Source="HL7"/>
+		<TableElement Code="BAP" DisplayName="Christian: Baptist" Source="HL7"/>
+		<TableElement Code="CAT" DisplayName="Christian: Roman Catholic" Source="HL7"/>
+		<TableElement Code="CRR" DisplayName="Christian: Christian Reformed" Source="HL7"/>
+		<TableElement Code="CHS" DisplayName="Christian: Christian Science" Source="HL7"/>
+		<TableElement Code="CMA" DisplayName="Christian: Christian Missionary Alliance" Source="HL7"/>
+		<TableElement Code="COC" DisplayName="Christian: Church of Christ" Source="HL7"/>
+		<TableElement Code="COG" DisplayName="Christian: Church of God" Source="HL7"/>
+		<TableElement Code="COI" DisplayName="Christian: Church of God in Christ" Source="HL7"/>
+		<TableElement Code="COM" DisplayName="Christian: Community" Source="HL7"/>
+		<TableElement Code="COL" DisplayName="Christian: Congregational" Source="HL7"/>
+		<TableElement Code="EOT" DisplayName="Christian: Eastern Orthodox" Source="HL7"/>
+		<TableElement Code="EVC" DisplayName="Christian: Evangelical Church" Source="HL7"/>
+		<TableElement Code="EPI" DisplayName="Christian: Episcopalian" Source="HL7"/>
+		<TableElement Code="FWB" DisplayName="Christian: Free Will Baptist" Source="HL7"/>
+		<TableElement Code="FRQ" DisplayName="Christian: Friends" Source="HL7"/>
+		<TableElement Code="GRE" DisplayName="Christian: Greek Orthodox" Source="HL7"/>
+		<TableElement Code="JWN" DisplayName="Christian: Jehovah's Witness" Source="HL7"/>
+		<TableElement Code="LUT" DisplayName="Christian: Lutheran" Source="HL7"/>
+		<TableElement Code="LMS" DisplayName="Christian: Lutheran Missouri Synod" Source="HL7"/>
+		<TableElement Code="MEN" DisplayName="Christian: Mennonite" Source="HL7"/>
+		<TableElement Code="MET" DisplayName="Christian: Methodist" Source="HL7"/>
+		<TableElement Code="MOM" DisplayName="Christian: Latter-day Saints" Source="HL7"/>
+		<TableElement Code="NAZ" DisplayName="Christian: Church of the Nazarene" Source="HL7"/>
+		<TableElement Code="ORT" DisplayName="Christian: Orthodox" Source="HL7"/>
+		<TableElement Code="COT" DisplayName="Christian: Other" Source="HL7"/>
+		<TableElement Code="PRC" DisplayName="Christian: Other Protestant" Source="HL7"/>
+		<TableElement Code="PEN" DisplayName="Christian: Pentecostal" Source="HL7"/>
+		<TableElement Code="COP" DisplayName="Christian: Other Pentecostal" Source="HL7"/>
+		<TableElement Code="PRE" DisplayName="Christian: Presbyterian" Source="HL7"/>
+		<TableElement Code="PRO" DisplayName="Christian: Protestant" Source="HL7"/>
+		<TableElement Code="QUA" DisplayName="Christian: Friends" Source="HL7"/>
+		<TableElement Code="REC" DisplayName="Christian: Reformed Church" Source="HL7"/>
+		<TableElement Code="REO" DisplayName="Christian: Reorganized Church of Jesus Christ-LDS" Source="HL7"/>
+		<TableElement Code="SAA" DisplayName="Christian: Salvation Army" Source="HL7"/>
+		<TableElement Code="SEV" DisplayName="Christian: Seventh Day Adventist" Source="HL7"/>
+		<TableElement Code="SOU" DisplayName="Christian: Southern Baptist" Source="HL7"/>
+		<TableElement Code="UCC" DisplayName="Christian: United Church of Christ" Source="HL7"/>
+		<TableElement Code="UMD" DisplayName="Christian: United Methodist" Source="HL7"/>
+		<TableElement Code="UNI" DisplayName="Christian: Unitarian" Source="HL7"/>
+		<TableElement Code="UNU" DisplayName="Christian: Unitarian Universalist" Source="HL7"/>
+		<TableElement Code="WES" DisplayName="Christian: Wesleyan" Source="HL7"/>
+		<TableElement Code="WMC" DisplayName="Christian: Wesleyan Methodist" Source="HL7"/>
+		<TableElement Code="CNF" DisplayName="Confucian" Source="HL7"/>
+		<TableElement Code="ERL" DisplayName="Ethnic Religionist" Source="HL7"/>
+		<TableElement Code="HIN" DisplayName="Hindu" Source="HL7"/>
+		<TableElement Code="HVA" DisplayName="Hindu: Vaishnavites" Source="HL7"/>
+		<TableElement Code="HSH" DisplayName="Hindu: Shaivites" Source="HL7"/>
+		<TableElement Code="HOT" DisplayName="Hindu: Other" Source="HL7"/>
+		<TableElement Code="JAI" DisplayName="Jain" Source="HL7"/>
+		<TableElement Code="JEW" DisplayName="Jewish" Source="HL7"/>
+		<TableElement Code="JCO" DisplayName="Jewish: Conservative" Source="HL7"/>
+		<TableElement Code="JOR" DisplayName="Jewish: Orthodox" Source="HL7"/>
+		<TableElement Code="JOT" DisplayName="Jewish: Other" Source="HL7"/>
+		<TableElement Code="JRC" DisplayName="Jewish: Reconstructionist" Source="HL7"/>
+		<TableElement Code="JRF" DisplayName="Jewish: Reform" Source="HL7"/>
+		<TableElement Code="JRN" DisplayName="Jewish: Renewal" Source="HL7"/>
+		<TableElement Code="MOS" DisplayName="Muslim" Source="HL7"/>
+		<TableElement Code="MSU" DisplayName="Muslim: Sunni" Source="HL7"/>
+		<TableElement Code="MSH" DisplayName="Muslim: Shiite" Source="HL7"/>
+		<TableElement Code="MOT" DisplayName="Muslim: Other" Source="HL7"/>
+		<TableElement Code="NAM" DisplayName="Native American" Source="HL7"/>
+		<TableElement Code="NRL" DisplayName="New Religionist" Source="HL7"/>
+		<TableElement Code="NOE" DisplayName="Nonreligious" Source="HL7"/>
+		<TableElement Code="OTH" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="SHN" DisplayName="Shintoist" Source="HL7"/>
+		<TableElement Code="SIK" DisplayName="Sikh" Source="HL7"/>
+		<TableElement Code="SPI" DisplayName="Spiritist" Source="HL7"/>
+		<TableElement Code="VAR" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0007" Name="Admission Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Accident" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Labor and Delivery" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Routine" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Newborn (Birth in healthcare facility)" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Urgent" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Elective" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0009" Name="Ambulatory Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A0" DisplayName="No functional limitations" Source="HL7"/>
+		<TableElement Code="A1" DisplayName="Ambulates with assistive device" Source="HL7"/>
+		<TableElement Code="A2" DisplayName="Wheelchair/stretcher bound" Source="HL7"/>
+		<TableElement Code="A3" DisplayName="Comatose; non-responsive" Source="HL7"/>
+		<TableElement Code="A4" DisplayName="Disoriented" Source="HL7"/>
+		<TableElement Code="A5" DisplayName="Vision impaired" Source="HL7"/>
+		<TableElement Code="A6" DisplayName="Hearing impaired" Source="HL7"/>
+		<TableElement Code="A7" DisplayName="Speech impaired" Source="HL7"/>
+		<TableElement Code="A8" DisplayName="Non-English speaking" Source="HL7"/>
+		<TableElement Code="A9" DisplayName="Functional level unknown" Source="HL7"/>
+		<TableElement Code="B1" DisplayName="Oxygen therapy" Source="HL7"/>
+		<TableElement Code="B2" DisplayName="Special equipment (tubes, IVs, catheters)" Source="HL7"/>
+		<TableElement Code="B3" DisplayName="Amputee" Source="HL7"/>
+		<TableElement Code="B4" DisplayName="Mastectomy" Source="HL7"/>
+		<TableElement Code="B5" DisplayName="Paraplegic" Source="HL7"/>
+		<TableElement Code="B6" DisplayName="Pregnant" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0010" Name="Physician ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0017" Name="Transaction Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CG" DisplayName="Charge" Source="HL7"/>
+		<TableElement Code="CD" DisplayName="Credit" Source="HL7"/>
+		<TableElement Code="PY" DisplayName="Payment" Source="HL7"/>
+		<TableElement Code="AJ" DisplayName="Adjustment" Source="HL7"/>
+		<TableElement Code="CO" DisplayName="Co-payment" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0018" Name="Patient Type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0019" Name="Anesthesia Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0021" Name="Bad Debt Agency Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0022" Name="Billing Status" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0023" Name="Admit Source" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Physician referral" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Clinic referral" Source="HL7"/>
+		<TableElement Code="3" DisplayName="HMO referral" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Transfer from a hospital" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Transfer from a skilled nursing facility" Source="HL7"/>
+		<TableElement Code="6" DisplayName="Transfer from another health care facility" Source="HL7"/>
+		<TableElement Code="7" DisplayName="Emergency room" Source="HL7"/>
+		<TableElement Code="8" DisplayName="Court/law enforcement" Source="HL7"/>
+		<TableElement Code="9" DisplayName="Information not available" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0024" Name="Fee Schedule" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0032" Name="Charge/Price Indicator" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0042" Name="Company Plan Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0043" Name="Condition Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0044" Name="Contract Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0045" Name="Courtesy Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0046" Name="Credit Rating" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0049" Name="Department Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0050" Name="Accident Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0051" Name="Diagnosis Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0052" Name="Diagnosis Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AD" DisplayName="Aufnahmediagnose" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Admitting" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Working" Source="HL7"/>
+		<TableElement Code="ED" DisplayName="Einweisungsdiagnose" Source="HL7"/>
+		<TableElement Code="ND" DisplayName="Nachfolgediagnose" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Final" Source="HL7"/>
+		<TableElement Code="NU" DisplayName="Nachfolgediagnose, die die Arbeitsunf&#xE4;higkeit allein begr&#xFC;ndet hat" Source="HL7"/>
+		<TableElement Code="NO" DisplayName="Nachfolgediagnose Operieren" Source="HL7"/>
+		<TableElement Code="BD" DisplayName="Behandlungsdiagnose" Source="HL7"/>
+		<TableElement Code="UD" DisplayName="&#xDC;berweisungsdiagnose" Source="HL7"/>
+		<TableElement Code="EL" DisplayName="Entlassungs-/Verlegungsdiagnose" Source="HL7"/>
+		<TableElement Code="ZD" DisplayName="Neben- / Zusatzdiagnose" Source="HL7"/>
+		<TableElement Code="VO" DisplayName="Pr&#xE4;operative Diagnose" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0053" Name="Diagnosis Coding Method" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0055" Name="Diagnosis related group" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0056" Name="DRG grouper review code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0059" Name="Consent Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0062" Name="Event reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="01" DisplayName="Patient request" Source="HL7"/>
+		<TableElement Code="02" DisplayName="Physician/health practitioner order" Source="HL7"/>
+		<TableElement Code="03" DisplayName="Census management" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0063" Name="Relationship" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SEL" DisplayName="Self" Source="HL7"/>
+		<TableElement Code="SPO" DisplayName="Spouse" Source="HL7"/>
+		<TableElement Code="DOM" DisplayName="Life partner" Source="HL7"/>
+		<TableElement Code="CHD" DisplayName="Child" Source="HL7"/>
+		<TableElement Code="GCH" DisplayName="Grandchild" Source="HL7"/>
+		<TableElement Code="NCH" DisplayName="Natural child" Source="HL7"/>
+		<TableElement Code="SCH" DisplayName="Stepchild" Source="HL7"/>
+		<TableElement Code="FCH" DisplayName="Foster child" Source="HL7"/>
+		<TableElement Code="DEP" DisplayName="Handicapped dependent" Source="HL7"/>
+		<TableElement Code="WRD" DisplayName="Ward of court" Source="HL7"/>
+		<TableElement Code="PAR" DisplayName="Parent" Source="HL7"/>
+		<TableElement Code="MTH" DisplayName="Mother" Source="HL7"/>
+		<TableElement Code="FTH" DisplayName="Father" Source="HL7"/>
+		<TableElement Code="CGV" DisplayName="Care giver" Source="HL7"/>
+		<TableElement Code="GRD" DisplayName="Guardian" Source="HL7"/>
+		<TableElement Code="GRP" DisplayName="Grandparent" Source="HL7"/>
+		<TableElement Code="EXF" DisplayName="Extended family" Source="HL7"/>
+		<TableElement Code="SIB" DisplayName="Sibling" Source="HL7"/>
+		<TableElement Code="BRO" DisplayName="Brother" Source="HL7"/>
+		<TableElement Code="SIS" DisplayName="Sister" Source="HL7"/>
+		<TableElement Code="FND" DisplayName="Friend" Source="HL7"/>
+		<TableElement Code="OAD" DisplayName="Other adult" Source="HL7"/>
+		<TableElement Code="EME" DisplayName="Employee" Source="HL7"/>
+		<TableElement Code="EMR" DisplayName="Employer" Source="HL7"/>
+		<TableElement Code="ASC" DisplayName="Associate" Source="HL7"/>
+		<TableElement Code="EMC" DisplayName="Emergency contact" Source="HL7"/>
+		<TableElement Code="OWN" DisplayName="Owner" Source="HL7"/>
+		<TableElement Code="TRA" DisplayName="Trainer" Source="HL7"/>
+		<TableElement Code="MGR" DisplayName="Manager" Source="HL7"/>
+		<TableElement Code="NON" DisplayName="None" Source="HL7"/>
+		<TableElement Code="UNK" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="OTH" DisplayName="Other" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0064" Name="Financial class" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0066" Name="Employment Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Full time employed" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Part time employed" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Self-employed," Source="HL7"/>
+		<TableElement Code="C" DisplayName="Contract, per diem" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Leave of absence (e.g. Family leave, sabbatical, etc.)" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Temporarily unemployed" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Unemployed" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Retired" Source="HL7"/>
+		<TableElement Code="6" DisplayName="On active military duty" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="9" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0068" Name="Guarantor Type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0069" Name="Hospital Service" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="MED" DisplayName="Medical Service" Source="HL7"/>
+		<TableElement Code="SUR" DisplayName="Surgical Service" Source="HL7"/>
+		<TableElement Code="URO" DisplayName="Urology Service" Source="HL7"/>
+		<TableElement Code="PUL" DisplayName="Pulmonary Service" Source="HL7"/>
+		<TableElement Code="CAR" DisplayName="Cardiac Service" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0072" Name="Insurance Plan ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0073" Name="Interest Rate Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0078" Name="Abnormal flags" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="L" DisplayName="Below low normal" Source="HL7"/>
+		<TableElement Code="H" DisplayName="Above high normal" Source="HL7"/>
+		<TableElement Code="LL" DisplayName="Below lower panic limits" Source="HL7"/>
+		<TableElement Code="HH" DisplayName="Above upper panic limits" Source="HL7"/>
+		<TableElement Code="&lt;" DisplayName="Below absolute low-off instrument scale" Source="HL7"/>
+		<TableElement Code="&gt;" DisplayName="Above absolute high-off instrument scale" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Normal (applies to non-numeric results)" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Abnormal (applies to non-numeric results)" Source="HL7"/>
+		<TableElement Code="AA" DisplayName="Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)" Source="HL7"/>
+		<TableElement Code="null" DisplayName="No range defined, or normal ranges don't apply" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Significant change up" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Significant change down" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Better--use when direction not relevant" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Worse--use when direction not relevant" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Susceptible. Indicates for microbiology susceptibilities only." Source="HL7"/>
+		<TableElement Code="R" DisplayName="Resistant. Indicates for microbiology susceptibilities only." Source="HL7"/>
+		<TableElement Code="I" DisplayName="Intermediate. Indicates for microbiology susceptibilities only." Source="HL7"/>
+		<TableElement Code="MS" DisplayName="Moderately susceptible. Indicates for microbiology susceptibilities only." Source="HL7"/>
+		<TableElement Code="VS" DisplayName="Very susceptible. Indicates for microbiology susceptibilities only." Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0083" Name="Outlier Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="D" DisplayName="Outlier days" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Outlier cost" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0084" Name="Performed by" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0086" Name="Plan ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0087" Name="Pre-Admit Test Indicator" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0088" Name="Procedure Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0089" Name="Procedure Coding Method" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0092" Name="Re-Admission Indicator" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="R" DisplayName="Re-admission" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0093" Name="Release Information" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Y" DisplayName="Yes" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0098" Name="Type of Agreement" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="S" DisplayName="Standard" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unified" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Maternity" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0099" Name="VIP Indicator" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0110" Name="Transfer to Bad Debt Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0111" Name="Delete Account Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0112" Name="Discharge Disposition" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="01" DisplayName="Discharged to home or self care (routine discharge)" Source="HL7"/>
+		<TableElement Code="02" DisplayName="Discharged/transferred to another short term general hospital for inpatient care" Source="HL7"/>
+		<TableElement Code="03" DisplayName="Discharged/transferred to skilled nursing facility (SNF)" Source="HL7"/>
+		<TableElement Code="04" DisplayName="Discharged/transferred to an intermediate care facility (ICF)" Source="HL7"/>
+		<TableElement Code="05" DisplayName="Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution" Source="HL7"/>
+		<TableElement Code="06" DisplayName="Discharged/transferred to home under care of organized home health service organization" Source="HL7"/>
+		<TableElement Code="07" DisplayName="Left against medical advice or discontinued care" Source="HL7"/>
+		<TableElement Code="08" DisplayName="Discharged/transferred to home under care of Home IV provider" Source="HL7"/>
+		<TableElement Code="09" DisplayName="Admitted as an inpatient to this hospital" Source="HL7"/>
+		<TableElement Code="10 ... 19" DisplayName="Discharge to be defined at state level, if necessary" Source="HL7"/>
+		<TableElement Code="20" DisplayName="Expired (i.e. dead)" Source="HL7"/>
+		<TableElement Code="21 ... 29" DisplayName="Expired to be defined at state level, if necessary" Source="HL7"/>
+		<TableElement Code="30" DisplayName="Still patient or expected to return for outpatient services (i.e. still a patient)" Source="HL7"/>
+		<TableElement Code="31 ... 39" DisplayName="Still patient to be defined at state level, if necessary  (i.e. still a patient)" Source="HL7"/>
+		<TableElement Code="40" DisplayName="Expired (i.e. died) at home" Source="HL7"/>
+		<TableElement Code="41" DisplayName="Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice" Source="HL7"/>
+		<TableElement Code="42" DisplayName="Expired (i.e. died)  - place unknown" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0113" Name="Discharged to location" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0114" Name="Diet Type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0115" Name="Servicing Facility" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0116" Name="Bed Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="C" DisplayName="Closed" Source="HL7"/>
+		<TableElement Code="H" DisplayName="Housekeeping" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Occupied" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unoccupied" Source="HL7"/>
+		<TableElement Code="K" DisplayName="Contaminated" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Isolated" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0117" Name="Account Status" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0118" Name="Major Diagnostic Category" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0127" Name="Allergen Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="DA" DisplayName="Drug allergy" Source="HL7"/>
+		<TableElement Code="FA" DisplayName="Food allergy" Source="HL7"/>
+		<TableElement Code="MA" DisplayName="Miscellaneous allergy" Source="HL7"/>
+		<TableElement Code="MC" DisplayName="Miscellaneous contraindication" Source="HL7"/>
+		<TableElement Code="EA" DisplayName="Environmental Allergy" Source="HL7"/>
+		<TableElement Code="AA" DisplayName="Animal Allergy" Source="HL7"/>
+		<TableElement Code="PA" DisplayName="Plant Allergy" Source="HL7"/>
+		<TableElement Code="LA" DisplayName="Pollen Allergy" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0128" Name="Allergy Severity" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SV" DisplayName="Severe" Source="HL7"/>
+		<TableElement Code="MO" DisplayName="Moderate" Source="HL7"/>
+		<TableElement Code="MI" DisplayName="Mild" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0129" Name="Accommodation code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0130" Name="Visit User Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="TE" DisplayName="Teaching" Source="HL7"/>
+		<TableElement Code="HO" DisplayName="Home" Source="HL7"/>
+		<TableElement Code="MO" DisplayName="Mobile Unit" Source="HL7"/>
+		<TableElement Code="PH" DisplayName="Phone" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0131" Name="Contact Role" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E" DisplayName="Employer" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Emergency Contact" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Federal Agency" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Insurance Company" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Next-of-Kin" Source="HL7"/>
+		<TableElement Code="S" DisplayName="State Agency" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0132" Name="Transaction Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0133" Name="Procedure Practitioner Identifier Code Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AN" DisplayName="Anesthesiologist/Anesthetist" Source="HL7"/>
+		<TableElement Code="PR" DisplayName="Procedure MD/ Surgeon" Source="HL7"/>
+		<TableElement Code="RD" DisplayName="Radiologist" Source="HL7"/>
+		<TableElement Code="RS" DisplayName="Resident" Source="HL7"/>
+		<TableElement Code="NP" DisplayName="Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="CM" DisplayName="Certified Nurse Midwife" Source="HL7"/>
+		<TableElement Code="SN" DisplayName="Scrub Nurse" Source="HL7"/>
+		<TableElement Code="PS" DisplayName="Primary Surgeon" Source="HL7"/>
+		<TableElement Code="AS" DisplayName="Assistant Surgeon" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0135" Name="Assignment of Benefits" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Y" DisplayName="Yes" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Modified assignment" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0137" Name="Mail Claim Party" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E" DisplayName="Employer" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Guarantor" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Insurance company" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Patient" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0139" Name="Employer Information Data" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0140" Name="Military Service" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="USA" DisplayName="US Army" Source="HL7"/>
+		<TableElement Code="USN" DisplayName="US Navy" Source="HL7"/>
+		<TableElement Code="USAF" DisplayName="US Air Force" Source="HL7"/>
+		<TableElement Code="USMC" DisplayName="US Marine Corps" Source="HL7"/>
+		<TableElement Code="USCG" DisplayName="US Coast Guard" Source="HL7"/>
+		<TableElement Code="USPHS" DisplayName="US Public Health Service" Source="HL7"/>
+		<TableElement Code="NOAA" DisplayName="National Oceanic and Atmospheric Administration" Source="HL7"/>
+		<TableElement Code="NATO" DisplayName="North Atlantic Treaty Organization" Source="HL7"/>
+		<TableElement Code="AUSA" DisplayName="Australian Army" Source="HL7"/>
+		<TableElement Code="AUSN" DisplayName="Australian Navy" Source="HL7"/>
+		<TableElement Code="AUSAF" DisplayName="Australian Air Force" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0141" Name="Military Rank/Grade" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E1... E9" DisplayName="Enlisted" Source="HL7"/>
+		<TableElement Code="O1 ... O9" DisplayName="Officers" Source="HL7"/>
+		<TableElement Code="W1 ... W4" DisplayName="Warrant Officers" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0142" Name="Military Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ACT" DisplayName="Active duty" Source="HL7"/>
+		<TableElement Code="RET" DisplayName="Retired" Source="HL7"/>
+		<TableElement Code="DEC" DisplayName="Deceased" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0143" Name="Non-covered Insurance Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0144" Name="Eligibility Source" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Insurance company" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Employer" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Insured presented policy" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Insured presented card" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Signed statement on file" Source="HL7"/>
+		<TableElement Code="6" DisplayName="Verbal information" Source="HL7"/>
+		<TableElement Code="7" DisplayName="None" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0145" Name="Room type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PRI" DisplayName="Private room" Source="HL7"/>
+		<TableElement Code="2PRI" DisplayName="Second private room" Source="HL7"/>
+		<TableElement Code="SPR" DisplayName="Semi-private room" Source="HL7"/>
+		<TableElement Code="2SPR" DisplayName="Second semi-private room" Source="HL7"/>
+		<TableElement Code="ICU" DisplayName="Intensive care unit" Source="HL7"/>
+		<TableElement Code="2ICU" DisplayName="Second intensive care unit" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0146" Name="Amount type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="DF" DisplayName="Differential" Source="HL7"/>
+		<TableElement Code="LM" DisplayName="Limit" Source="HL7"/>
+		<TableElement Code="PC" DisplayName="Percentage" Source="HL7"/>
+		<TableElement Code="RT" DisplayName="Rate" Source="HL7"/>
+		<TableElement Code="UL" DisplayName="Unlimited" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0147" Name="Policy type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ANC" DisplayName="Ancillary" Source="HL7"/>
+		<TableElement Code="2ANC" DisplayName="Second ancillary" Source="HL7"/>
+		<TableElement Code="MMD" DisplayName="Major medical" Source="HL7"/>
+		<TableElement Code="2MMD" DisplayName="Second major medical" Source="HL7"/>
+		<TableElement Code="3MMD" DisplayName="Third major medical" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0149" Name="Day type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AP" DisplayName="Approved" Source="HL7"/>
+		<TableElement Code="DE" DisplayName="Denied" Source="HL7"/>
+		<TableElement Code="PE" DisplayName="Pending" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0150" Name="Certification patient type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ER" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="IPE" DisplayName="Inpatient elective" Source="HL7"/>
+		<TableElement Code="OPE" DisplayName="Outpatient elective" Source="HL7"/>
+		<TableElement Code="UR" DisplayName="Urgent" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0151" Name="Second Opinion Status" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0152" Name="Second Opinion Documentation Received" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0171" Name="Citizenship" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0172" Name="Veterans Military Status" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0173" Name="Coordination of Benefits" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CO" DisplayName="Coordination" Source="HL7"/>
+		<TableElement Code="IN" DisplayName="Independent" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0174" Name="Nature of Service/Test/Observation" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Profile or battery consisting of many independent atomic observations (e.g., SMA12, electrolytes), usually done at one instrument on one specimen" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Functional procedure that may consist of one or more interrelated measures (e.g., glucose tolerance test, creatinine clearance), usually done at different times and/or on different specimens" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Atomic service/test/observation (test code or treatment code)" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Superset--a set of batteries or procedures ordered under a single code unit but processed as separate batteries (e.g., routines = CBC, UA, electrolytes)" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Single observation calculated via a rule or formula from other independent observations (e.g., Alveolar--arterial ratio, cardiac output)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0177" Name="Confidentiality code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="V" DisplayName="Very restricted" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Restricted" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Usual control" Source="HL7"/>
+		<TableElement Code="EMP" DisplayName="Employee" Source="HL7"/>
+		<TableElement Code="UWM" DisplayName="Unwed mother" Source="HL7"/>
+		<TableElement Code="VIP" DisplayName="Very important person or celebrity" Source="HL7"/>
+		<TableElement Code="PSY" DisplayName="Psychiatric patient" Source="HL7"/>
+		<TableElement Code="AID" DisplayName="AIDS patient" Source="HL7"/>
+		<TableElement Code="HIV" DisplayName="HIV(+) patient" Source="HL7"/>
+		<TableElement Code="ETH" DisplayName="Alcohol/drug treatment patient" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0181" Name="MFN record-level error return" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="S" DisplayName="Successful posting of the record defined by the MFE segment" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unsuccessful posting of the record defined by the MFE segment" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0182" Name="Staff type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0184" Name="Department" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0186" Name="Practitioner category" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0188" Name="Operator ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0189" Name="Ethnic Group" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="H" DisplayName="Hispanic or Latino" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Not Hispanic or Latino" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0193" Name="Amount class" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AT" DisplayName="Amount" Source="HL7"/>
+		<TableElement Code="LM" DisplayName="Limit" Source="HL7"/>
+		<TableElement Code="PC" DisplayName="Percentage" Source="HL7"/>
+		<TableElement Code="UL" DisplayName="Unlimited" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0204" Name="Organizational name type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Alias name" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Legal name" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Display name" Source="HL7"/>
+		<TableElement Code="SL" DisplayName="Stock exchange listing name" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0212" Name="Nationality" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0213" Name="Purge Status Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Marked for purge.  User is no longer able to update the visit." Source="HL7"/>
+		<TableElement Code="D" DisplayName="The visit is marked for deletion and the user cannot enter new data against it." Source="HL7"/>
+		<TableElement Code="I" DisplayName="The visit is marked inactive and the user cannot enter new data against it." Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0214" Name="Special Program Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CH" DisplayName="Child Health Assistance" Source="HL7"/>
+		<TableElement Code="ES" DisplayName="Elective Surgery Program" Source="HL7"/>
+		<TableElement Code="FP" DisplayName="Family Planning" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0215" Name="Publicity Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="F" DisplayName="Family only" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No Publicity" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0216" Name="Patient Status Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AI" DisplayName="Active Inpatient" Source="HL7"/>
+		<TableElement Code="DI" DisplayName="Discharged Inpatient" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0217" Name="Visit Priority Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Urgent" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Elective" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0218" Name="Patient Charge Adjustment" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0219" Name="Recurring Service Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0220" Name="Living Arrangement" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Alone" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Family" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Institution" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Relative" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Spouse Only" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0222" Name="Contact Reason" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0223" Name="Living Dependency" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="S" DisplayName="Spouse Dependent" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Medical Supervision Required" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Small Children Dependent" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0228" Name="Diagnosis Classification" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="C" DisplayName="Consultation" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Diagnosis" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Medication (antibiotic)" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Radiological scheduling (not using ICDA codes)" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Sign and symptom" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Tissue diagnosis" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Invasive procedure not classified elsewhere (I.V., catheter, etc.)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0229" Name="DRG Payor" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="M" DisplayName="Medicare" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Champus" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Managed Care Organization" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0230" Name="Procedure Functional Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Anesthesia" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Procedure for treatment (therapeutic, including operations)" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Invasive procedure not classified elsewhere (e.g., IV, catheter, etc.)" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Diagnostic procedure" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0231" Name="Student Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="F" DisplayName="Full-time student" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Part-time student" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Not a student" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0232" Name="Insurance Company Contact Reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="01" DisplayName="Medicare claim status" Source="HL7"/>
+		<TableElement Code="02" DisplayName="Medicaid claim status" Source="HL7"/>
+		<TableElement Code="03" DisplayName="Name/address change" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0233" Name="Non-Concur Code/Description" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0244" Name="Single Use Device" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0245" Name="Product Problem" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0246" Name="Product Available for Inspection" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0249" Name="Generic Product" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0255" Name="Duration categories" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PT" DisplayName="To identify measures at a point in time.  This is a synonym for &quot;spot&quot; or &quot;random&quot; as applied to urine measurements." Source="HL7"/>
+		<TableElement Code="*" DisplayName="(asterisk) Life of the &quot;unit.&quot;  Used for blood products." Source="HL7"/>
+		<TableElement Code="30M" DisplayName="30 minutes" Source="HL7"/>
+		<TableElement Code="1H" DisplayName="1 hour" Source="HL7"/>
+		<TableElement Code="2H" DisplayName="2 hours" Source="HL7"/>
+		<TableElement Code="2.5H" DisplayName="2&#xBD; hours" Source="HL7"/>
+		<TableElement Code="3H" DisplayName="3 hours" Source="HL7"/>
+		<TableElement Code="4H" DisplayName="4 hours" Source="HL7"/>
+		<TableElement Code="5H" DisplayName="5 hours" Source="HL7"/>
+		<TableElement Code="6H" DisplayName="6 hours" Source="HL7"/>
+		<TableElement Code="7H" DisplayName="7 hours" Source="HL7"/>
+		<TableElement Code="8H" DisplayName="8 hours" Source="HL7"/>
+		<TableElement Code="12H" DisplayName="12 hours" Source="HL7"/>
+		<TableElement Code="24H" DisplayName="24 hours" Source="HL7"/>
+		<TableElement Code="2D" DisplayName="2 days" Source="HL7"/>
+		<TableElement Code="3D" DisplayName="3 days" Source="HL7"/>
+		<TableElement Code="4D" DisplayName="4 days" Source="HL7"/>
+		<TableElement Code="5D" DisplayName="5 days" Source="HL7"/>
+		<TableElement Code="6D" DisplayName="6 days" Source="HL7"/>
+		<TableElement Code="1W" DisplayName="1 week" Source="HL7"/>
+		<TableElement Code="2W" DisplayName="2 weeks" Source="HL7"/>
+		<TableElement Code="3W" DisplayName="3 weeks" Source="HL7"/>
+		<TableElement Code="4W" DisplayName="4 weeks" Source="HL7"/>
+		<TableElement Code="1L" DisplayName="1 months (30 days)" Source="HL7"/>
+		<TableElement Code="2L" DisplayName="2 months" Source="HL7"/>
+		<TableElement Code="3L" DisplayName="3 months" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0259" Name="Modality" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AS" DisplayName="Angioscopy" Source="HL7"/>
+		<TableElement Code="BS" DisplayName="Biomagnetic imaging" Source="HL7"/>
+		<TableElement Code="CD" DisplayName="Color flow Doppler" Source="HL7"/>
+		<TableElement Code="CP" DisplayName="Colposcopy" Source="HL7"/>
+		<TableElement Code="CR" DisplayName="Computed radiography" Source="HL7"/>
+		<TableElement Code="CS" DisplayName="Cystoscopy" Source="HL7"/>
+		<TableElement Code="CT" DisplayName="Computed tomography" Source="HL7"/>
+		<TableElement Code="DD" DisplayName="Duplex Doppler" Source="HL7"/>
+		<TableElement Code="DG" DisplayName="Diapanography" Source="HL7"/>
+		<TableElement Code="DM" DisplayName="Digital microscopy" Source="HL7"/>
+		<TableElement Code="EC" DisplayName="Echocardiography" Source="HL7"/>
+		<TableElement Code="ES" DisplayName="Endoscopy" Source="HL7"/>
+		<TableElement Code="FA" DisplayName="Fluorescein angiography" Source="HL7"/>
+		<TableElement Code="FS" DisplayName="Fundoscopy" Source="HL7"/>
+		<TableElement Code="LP" DisplayName="Laparoscopy" Source="HL7"/>
+		<TableElement Code="LS" DisplayName="Laser surface scan" Source="HL7"/>
+		<TableElement Code="MA" DisplayName="Magnetic resonance angiography" Source="HL7"/>
+		<TableElement Code="MS" DisplayName="Magnetic resonance spectroscopy" Source="HL7"/>
+		<TableElement Code="NM" DisplayName="Nuclear Medicine (radioisotope study)" Source="HL7"/>
+		<TableElement Code="OT" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="PT" DisplayName="Positron emission tomography (PET)" Source="HL7"/>
+		<TableElement Code="RF" DisplayName="Radio fluoroscopy" Source="HL7"/>
+		<TableElement Code="ST" DisplayName="Single photon emission computed tomography (SPECT)" Source="HL7"/>
+		<TableElement Code="TG" DisplayName="Thermography" Source="HL7"/>
+		<TableElement Code="US" DisplayName="Ultrasound" Source="HL7"/>
+		<TableElement Code="XA" DisplayName="X-ray Angiography" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0260" Name="Patient location type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="N" DisplayName="Nursing Unit" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Room" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Bed" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Exam Room" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Operating Room" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Clinic" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Department" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Other Location" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0261" Name="Location Equipment" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="OXY" DisplayName="Oxygen" Source="HL7"/>
+		<TableElement Code="SUC" DisplayName="Suction" Source="HL7"/>
+		<TableElement Code="VIT" DisplayName="Vital signs monitor" Source="HL7"/>
+		<TableElement Code="INF" DisplayName="Infusion pump" Source="HL7"/>
+		<TableElement Code="IVP" DisplayName="IV pump" Source="HL7"/>
+		<TableElement Code="EEG" DisplayName="Electro-Encephalogram" Source="HL7"/>
+		<TableElement Code="EKG" DisplayName="Electro-Cardiogram" Source="HL7"/>
+		<TableElement Code="VEN" DisplayName="Ventilator" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0262" Name="Privacy Level" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="F" DisplayName="Isolation" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Private room" Source="HL7"/>
+		<TableElement Code="J" DisplayName="Private room - medically justified" Source="HL7"/>
+		<TableElement Code="Q" DisplayName="Private room - due to overflow" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Semi-private room" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Ward" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0263" Name="Level of Care" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Ambulatory" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Isolation" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Intensive care" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Critical care" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Routine" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Surgery" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0264" Name="Location Department" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0265" Name="Specialty Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AMB" DisplayName="Ambulatory" Source="HL7"/>
+		<TableElement Code="PSY" DisplayName="Psychiatric" Source="HL7"/>
+		<TableElement Code="PPS" DisplayName="Pediatric psychiatric" Source="HL7"/>
+		<TableElement Code="REH" DisplayName="Rehabilitation" Source="HL7"/>
+		<TableElement Code="PRE" DisplayName="Pediatric rehabilitation" Source="HL7"/>
+		<TableElement Code="ISO" DisplayName="Isolation" Source="HL7"/>
+		<TableElement Code="OBG" DisplayName="Obstetrics, gynecology" Source="HL7"/>
+		<TableElement Code="PIN" DisplayName="Pediatric/neonatal intensive care" Source="HL7"/>
+		<TableElement Code="INT" DisplayName="Intensive care" Source="HL7"/>
+		<TableElement Code="SUR" DisplayName="Surgery" Source="HL7"/>
+		<TableElement Code="PSI" DisplayName="Psychiatric intensive care" Source="HL7"/>
+		<TableElement Code="EDI" DisplayName="Education" Source="HL7"/>
+		<TableElement Code="CAR" DisplayName="Coronary/cardiac care" Source="HL7"/>
+		<TableElement Code="NBI" DisplayName="Newborn, nursery, infants" Source="HL7"/>
+		<TableElement Code="CCR" DisplayName="Critical care" Source="HL7"/>
+		<TableElement Code="PED" DisplayName="Pediatrics" Source="HL7"/>
+		<TableElement Code="EMR" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="OBS" DisplayName="Observation" Source="HL7"/>
+		<TableElement Code="WIC" DisplayName="Walk-in clinic" Source="HL7"/>
+		<TableElement Code="PHY" DisplayName="General/family practice" Source="HL7"/>
+		<TableElement Code="ALC" DisplayName="Allergy" Source="HL7"/>
+		<TableElement Code="FPC" DisplayName="Family planning" Source="HL7"/>
+		<TableElement Code="CHI" DisplayName="Chiropractic" Source="HL7"/>
+		<TableElement Code="CAN" DisplayName="Cancer" Source="HL7"/>
+		<TableElement Code="NAT" DisplayName="Naturopathic" Source="HL7"/>
+		<TableElement Code="OTH" DisplayName="Other specialty" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0268" Name="Override" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="X" DisplayName="Override not allowed" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Override allowed" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Override required" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0269" Name="Charge On Indicator" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="O" DisplayName="Charge on Order" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Charge on Result" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0270" Name="Document Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AR" DisplayName="Autopsy report" Source="HL7"/>
+		<TableElement Code="CD" DisplayName="Cardiodiagnostics" Source="HL7"/>
+		<TableElement Code="CN" DisplayName="Consultation" Source="HL7"/>
+		<TableElement Code="DI" DisplayName="Diagnostic imaging" Source="HL7"/>
+		<TableElement Code="DS" DisplayName="Discharge summary" Source="HL7"/>
+		<TableElement Code="ED" DisplayName="Emergency department report" Source="HL7"/>
+		<TableElement Code="HP" DisplayName="History and physical examination" Source="HL7"/>
+		<TableElement Code="OP" DisplayName="Operative report" Source="HL7"/>
+		<TableElement Code="PC" DisplayName="Psychiatric consultation" Source="HL7"/>
+		<TableElement Code="PH" DisplayName="Psychiatric history and physical examination" Source="HL7"/>
+		<TableElement Code="PN" DisplayName="Procedure note" Source="HL7"/>
+		<TableElement Code="PR" DisplayName="Progress note" Source="HL7"/>
+		<TableElement Code="SP" DisplayName="Surgical pathology" Source="HL7"/>
+		<TableElement Code="TS" DisplayName="Transfer summary" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0276" Name="Appointment reason codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ROUTINE" DisplayName="Routine appointment - default if not valued" Source="HL7"/>
+		<TableElement Code="WALKIN" DisplayName="A previously unscheduled walk-in visit" Source="HL7"/>
+		<TableElement Code="CHECKUP" DisplayName="A routine check-up, such as an annual physical" Source="HL7"/>
+		<TableElement Code="FOLLOWUP" DisplayName="A follow up visit from a previous appointment" Source="HL7"/>
+		<TableElement Code="EMERGENCY" DisplayName="Emergency appointment" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0277" Name="Appointment Type Codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Normal" DisplayName="Routine schedule request type - default if not valued" Source="HL7"/>
+		<TableElement Code="Tentative" DisplayName="A request for a tentative (e.g., &quot;penciled in&quot;) appointment" Source="HL7"/>
+		<TableElement Code="Complete" DisplayName="A request to add a completed appointment, used to maintain records of completed appointments that did not appear in the schedule (e.g., STAT, walk-in, etc.)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0278" Name="Filler status codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Pending" DisplayName="Appointment has not yet been confirmed" Source="HL7"/>
+		<TableElement Code="Waitlist" DisplayName="Appointment has been placed on a waiting list for a particular slot, or set of slots" Source="HL7"/>
+		<TableElement Code="Booked" DisplayName="The indicated appointment is booked" Source="HL7"/>
+		<TableElement Code="Started" DisplayName="The indicated appointment has begun and is currently in progress" Source="HL7"/>
+		<TableElement Code="Complete" DisplayName="The indicated appointment has completed normally (was not discontinued, canceled, or deleted)" Source="HL7"/>
+		<TableElement Code="Cancelled" DisplayName="The indicated appointment was stopped from occurring (canceled prior to starting)" Source="HL7"/>
+		<TableElement Code="Dc" DisplayName="The indicated appointment was discontinued (DC'ed while in progress, discontinued parent appointment, or discontinued child appointment)" Source="HL7"/>
+		<TableElement Code="Deleted" DisplayName="The indicated appointment was deleted from the filler application" Source="HL7"/>
+		<TableElement Code="Blocked" DisplayName="The indicated time slot(s) is(are) blocked" Source="HL7"/>
+		<TableElement Code="Overbook" DisplayName="The appointment has been confirmed; however it is confirmed in an overbooked state" Source="HL7"/>
+		<TableElement Code="Noshow" DisplayName="The patient did not show up for the appointment" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0279" Name="Allow Substitution Codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="No" DisplayName="Substitution of this resource is not allowed" Source="HL7"/>
+		<TableElement Code="Confirm" DisplayName="Contact the Placer Contact Person prior to making any substitutions of this resource" Source="HL7"/>
+		<TableElement Code="Notify" DisplayName="Notify the Placer Contact Person, through normal institutional procedures, that a substitution of this resource has been made" Source="HL7"/>
+		<TableElement Code="Yes" DisplayName="Substitution of this resource is allowed" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0280" Name="Referral priority" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="S" DisplayName="STAT" Source="HL7"/>
+		<TableElement Code="A" DisplayName="ASAP" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Routine" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0281" Name="Referral type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Lab" DisplayName="Laboratory" Source="HL7"/>
+		<TableElement Code="Rad" DisplayName="Radiology" Source="HL7"/>
+		<TableElement Code="Med" DisplayName="Medical" Source="HL7"/>
+		<TableElement Code="Skn" DisplayName="Skilled Nursing" Source="HL7"/>
+		<TableElement Code="Psy" DisplayName="Psychiatric" Source="HL7"/>
+		<TableElement Code="Hom" DisplayName="Home Care" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0282" Name="Referral disposition" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="WR" DisplayName="Send Written Report" Source="HL7"/>
+		<TableElement Code="RP" DisplayName="Return Patient After Evaluation" Source="HL7"/>
+		<TableElement Code="AM" DisplayName="Assume Management" Source="HL7"/>
+		<TableElement Code="SO" DisplayName="Second Opinion" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0283" Name="Referral status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Accepted" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Pending" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Rejected" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Expired" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0284" Name="Referral category" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="I" DisplayName="Inpatient" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Outpatient" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Ambulatory" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0285" Name="Insurance company ID codes" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0286" Name="Provider role" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="RP" DisplayName="Referring Provider" Source="HL7"/>
+		<TableElement Code="PP" DisplayName="Primary Care Provider" Source="HL7"/>
+		<TableElement Code="CP" DisplayName="Consulting Provider" Source="HL7"/>
+		<TableElement Code="RT" DisplayName="Referred to Provider" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0288" Name="Census tract" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0289" Name="County/parish" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0293" Name="Billing Category" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0294" Name="Time selection criteria parameter class codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Prefstart" DisplayName="An indicator that there is a preferred start time for the appointment request, service or resource." Source="HL7"/>
+		<TableElement Code="Prefend" DisplayName="An indicator that there is a preferred end time for the appointment request, service or resource." Source="HL7"/>
+		<TableElement Code="Mon" DisplayName="An indicator that Monday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Tue" DisplayName="An indicator that Tuesday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Wed" DisplayName="An indicator that Wednesday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Thu" DisplayName="An indicator that Thursday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Fri" DisplayName="An indicator that Friday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Sat" DisplayName="An indicator that Saturday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+		<TableElement Code="Sun" DisplayName="An indicator that Sunday is or is not preferred for the day on which the appointment will occur." Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0295" Name="Handicap" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0296" Name="Primary Language" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0297" Name="CN ID source" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0300" Name="Namespace ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+
+	<TableDefinition Id="0300" Name="Namespace ID" Codesys="HL7" Version="2.5" Type="User"/>
+
+	<!--<TableDefinition Id="0302" Name="Point of care" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0303" Name="Room" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0304" Name="Bed" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0305" Name="Person location type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="C" DisplayName="Clinic" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Department" Source="HL7"/>
+		<TableElement Code="H" DisplayName="Home" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Nursing Unit" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Provider's Office" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Phone" Source="HL7"/>
+		<TableElement Code="S" DisplayName="SNF" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0306" Name="Location status" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0307" Name="Building" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0308" Name="Floor" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0309" Name="Coverage Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="H" DisplayName="Hospital/institutional" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Physician/professional" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Both hospital and physician" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0311" Name="Job Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Permanent" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Temporary" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0312" Name="Policy Scope" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0313" Name="Policy Source" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0315" Name="Living Will Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Y" DisplayName="Yes, patient has a living will" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Yes, patient has a living will but it is not on file" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No, patient does not have a living will and no information was provided" Source="HL7"/>
+		<TableElement Code="I" DisplayName="No, patient does not have a living will but information was provided" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0316" Name="Organ Donor Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Y" DisplayName="Yes, patient is a documented donor and documentation is on file" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Yes, patient is a documented donor, but documentation is not on file" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No, patient has not agreed to be a donor" Source="HL7"/>
+		<TableElement Code="I" DisplayName="No, patient is not a documented donor, but information was provided" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Patient leaves organ donation decision to relatives" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Patient leaves organ donation decision to a specific person" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0317" Name="Annotations" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="9900" DisplayName="Pace spike" Source="HL7"/>
+		<TableElement Code="9901" DisplayName="SAS marker" Source="HL7"/>
+		<TableElement Code="9902" DisplayName="Sense marker" Source="HL7"/>
+		<TableElement Code="9903" DisplayName="Beat marker" Source="HL7"/>
+		<TableElement Code="9904" DisplayName="etc." Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0319" Name="Department Cost Center" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0320" Name="Item Natural Account Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0324" Name="Location characteristic ID" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SMK" DisplayName="Smoking" Source="HL7"/>
+		<TableElement Code="LIC" DisplayName="Licensed" Source="HL7"/>
+		<TableElement Code="IMP" DisplayName="Implant: can be used for radiation implant patients" Source="HL7"/>
+		<TableElement Code="SHA" DisplayName="Shadow: a temporary holding location that does not physically exist" Source="HL7"/>
+		<TableElement Code="INF" DisplayName="Infectious disease: this location can be used for isolation" Source="HL7"/>
+		<TableElement Code="PRL" DisplayName="Privacy level: indicating the level of private versus non-private room" Source="HL7"/>
+		<TableElement Code="LCR" DisplayName="Level of care" Source="HL7"/>
+		<TableElement Code="OVR" DisplayName="Overflow" Source="HL7"/>
+		<TableElement Code="STF" DisplayName="Bed is staffed" Source="HL7"/>
+		<TableElement Code="SET" DisplayName="Bed is set up" Source="HL7"/>
+		<TableElement Code="GEN" DisplayName="Gender of patient(s)" Source="HL7"/>
+		<TableElement Code="TEA" DisplayName="Teaching location" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0325" Name="Location Relationship ID" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="RX" DisplayName="Nearest  pharmacy" Source="HL7"/>
+		<TableElement Code="RX2" DisplayName="Second nearest pharmacy" Source="HL7"/>
+		<TableElement Code="LAB" DisplayName="Nearest  lab" Source="HL7"/>
+		<TableElement Code="LB2" DisplayName="Second nearest lab" Source="HL7"/>
+		<TableElement Code="DTY" DisplayName="Nearest  dietary location" Source="HL7"/>
+		<TableElement Code="ALI" DisplayName="Location Alias(es)" Source="HL7"/>
+		<TableElement Code="PAR" DisplayName="Parent location" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0326" Name="Visit Indicator" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Account level (default)" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Visit level" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0327" Name="Job code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0328" Name="Employee classification" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0333" Name="Driver's license issuing authority" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0334" Name="Disabled Person Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PT" DisplayName="Patient" Source="HL7"/>
+		<TableElement Code="GT" DisplayName="Guarantor" Source="HL7"/>
+		<TableElement Code="IN" DisplayName="Insured" Source="HL7"/>
+		<TableElement Code="AP" DisplayName="Associated party" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0335" Name="Repeat pattern" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Q&lt;integer&gt;S" DisplayName="every &lt;integer&gt; seconds" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;M" DisplayName="every &lt;integer&gt; minutes" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;H" DisplayName="every &lt;integer&gt; hours" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;D" DisplayName="every &lt;integer&gt; days" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;W" DisplayName="every &lt;integer&gt; weeks" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;L" DisplayName="every &lt;integer&gt; months (Lunar cycle)" Source="HL7"/>
+		<TableElement Code="Q&lt;integer&gt;J&lt;day#&gt;" DisplayName="repeats on a particular day of the week," Source="HL7"/>
+		<TableElement Code="BID" DisplayName="twice a day at institution-specified times" Source="HL7"/>
+		<TableElement Code="TID" DisplayName="three times a day at institution-specified times" Source="HL7"/>
+		<TableElement Code="QID" DisplayName="four times a day at institution-specified times" Source="HL7"/>
+		<TableElement Code="xID" DisplayName="&quot;X&quot; times per day at institution-specified times, where X is a numeral 5 or greater." Source="HL7"/>
+		<TableElement Code="QAM" DisplayName="in the morning at institution-specified time" Source="HL7"/>
+		<TableElement Code="QSHIFT" DisplayName="during each of three eight-hour shifts at institution-specified times" Source="HL7"/>
+		<TableElement Code="QOD" DisplayName="every other day" Source="HL7"/>
+		<TableElement Code="QHS" DisplayName="every day before the hour of sleep" Source="HL7"/>
+		<TableElement Code="QPM" DisplayName="in the evening at institution-specified time" Source="HL7"/>
+		<TableElement Code="C" DisplayName="service is provided continuously between start time and stop time" Source="HL7"/>
+		<TableElement Code="U &lt;spec&gt;" DisplayName="for future use, where &lt;spec&gt; is an interval specification as defined by the UNIX cron specification." Source="HL7"/>
+		<TableElement Code="PRN" DisplayName="given as needed" Source="HL7"/>
+		<TableElement Code="PRNxxx" DisplayName="where xxx is some frequency code" Source="HL7"/>
+		<TableElement Code="Once" DisplayName="one time only." Source="HL7"/>
+		<TableElement Code="Meal Related Timings" DisplayName="&lt;timing&gt;C (&quot;cum&quot;)&lt;meal&gt;" Source="HL7"/>
+		<TableElement Code="A" DisplayName="Ante (before)" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Post (after)" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Inter" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Cibus Matutinus (breakfast)" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Cibus Diurnus (lunch)" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Cibus Vespertinus (dinner)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0336" Name="Referral reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="S" DisplayName="Second Opinion" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Patient Preference" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Provider Ordered" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Work Load" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0338" Name="Practitioner ID number type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CY" DisplayName="County number" Source="HL7"/>
+		<TableElement Code="DEA" DisplayName="Drug Enforcement Agency no." Source="HL7"/>
+		<TableElement Code="GL" DisplayName="General ledger number" Source="HL7"/>
+		<TableElement Code="LI" DisplayName="Labor and industries number" Source="HL7"/>
+		<TableElement Code="L&amp;I" DisplayName="Labor and industries number" Source="HL7"/>
+		<TableElement Code="MCD" DisplayName="Medicaid number" Source="HL7"/>
+		<TableElement Code="MCR" DisplayName="Medicare number" Source="HL7"/>
+		<TableElement Code="QA" DisplayName="QA number" Source="HL7"/>
+		<TableElement Code="SL" DisplayName="State license number" Source="HL7"/>
+		<TableElement Code="TAX" DisplayName="Tax ID number" Source="HL7"/>
+		<TableElement Code="TRL" DisplayName="Training license number" Source="HL7"/>
+		<TableElement Code="UPIN" DisplayName="Unique physician ID no." Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0339" Name="Advanced Beneficiary Notice Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Service is subject to medical necessity procedures" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Patient has been informed of responsibility, and agrees to pay for service" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Patient has been informed of responsibility, and asks that the payer be billed" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Advanced Beneficiary Notice has not been signed" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0340" Name="Procedure Code Modifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0341" Name="Guarantor Credit Rating Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0342" Name="Military Recipient" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0343" Name="Military Handicapped Program Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0344" Name="Patient's Relationship to Insured" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="01" DisplayName="Patient is insured" Source="HL7"/>
+		<TableElement Code="02" DisplayName="Spouse" Source="HL7"/>
+		<TableElement Code="03" DisplayName="Natural child/insured financial responsibility" Source="HL7"/>
+		<TableElement Code="04" DisplayName="Natural child/Insured does not have financial responsibility" Source="HL7"/>
+		<TableElement Code="05" DisplayName="Step child" Source="HL7"/>
+		<TableElement Code="06" DisplayName="Foster child" Source="HL7"/>
+		<TableElement Code="07" DisplayName="Ward of the court" Source="HL7"/>
+		<TableElement Code="08" DisplayName="Employee" Source="HL7"/>
+		<TableElement Code="09" DisplayName="Unknown" Source="HL7"/>
+		<TableElement Code="10" DisplayName="Handicapped dependent" Source="HL7"/>
+		<TableElement Code="11" DisplayName="Organ donor" Source="HL7"/>
+		<TableElement Code="12" DisplayName="Cadaver donor" Source="HL7"/>
+		<TableElement Code="13" DisplayName="Grandchild" Source="HL7"/>
+		<TableElement Code="14" DisplayName="Niece/nephew" Source="HL7"/>
+		<TableElement Code="15" DisplayName="Injured plaintiff" Source="HL7"/>
+		<TableElement Code="16" DisplayName="Sponsored dependent" Source="HL7"/>
+		<TableElement Code="17" DisplayName="Minor dependent of a minor dependent" Source="HL7"/>
+		<TableElement Code="18" DisplayName="Parent" Source="HL7"/>
+		<TableElement Code="19" DisplayName="Grandparent" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0345" Name="Appeal Reason" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0346" Name="Certification Agency" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0347" Name="State/province" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AB" DisplayName="Alberta  (US and Canada)" Source="HL7"/>
+		<TableElement Code="MI" DisplayName="Michigan  (US)" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0348" Name="Special Program Indicator" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0349" Name="PSRO/UR Approval Indicator" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0358" Name="Practitioner group" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0360" Name="Degree/license/certificate" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PN" DisplayName="Advanced Practice Nurse" Source="HL7"/>
+		<TableElement Code="AAS" DisplayName="Associate of Applied Science" Source="HL7"/>
+		<TableElement Code="AA" DisplayName="Associate of Arts" Source="HL7"/>
+		<TableElement Code="ABA" DisplayName="Associate of Business Administration" Source="HL7"/>
+		<TableElement Code="AE" DisplayName="Associate of Engineering" Source="HL7"/>
+		<TableElement Code="AS" DisplayName="Associate of Science" Source="HL7"/>
+		<TableElement Code="BA" DisplayName="Bachelor of Arts" Source="HL7"/>
+		<TableElement Code="BBA" DisplayName="Bachelor of Business Administration" Source="HL7"/>
+		<TableElement Code="BE" DisplayName="Bachelor or Engineering" Source="HL7"/>
+		<TableElement Code="BFA" DisplayName="Bachelor of Fine Arts" Source="HL7"/>
+		<TableElement Code="BN" DisplayName="Bachelor of Nursing" Source="HL7"/>
+		<TableElement Code="BS" DisplayName="Bachelor of Science" Source="HL7"/>
+		<TableElement Code="BSL" DisplayName="Bachelor of Science - Law" Source="HL7"/>
+		<TableElement Code="BSN" DisplayName="Bachelor on Science - Nursing" Source="HL7"/>
+		<TableElement Code="BT" DisplayName="Bachelor of Theology" Source="HL7"/>
+		<TableElement Code="CER" DisplayName="Certificate" Source="HL7"/>
+		<TableElement Code="CANP" DisplayName="Certified Adult Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="CMA" DisplayName="Certified Medical Assistant" Source="HL7"/>
+		<TableElement Code="CNP" DisplayName="Certified Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="CNM" DisplayName="Certified Nurse Midwife" Source="HL7"/>
+		<TableElement Code="CRN" DisplayName="Certified Registered Nurse" Source="HL7"/>
+		<TableElement Code="CNS" DisplayName="Certified Nurse Specialist" Source="HL7"/>
+		<TableElement Code="CPNP" DisplayName="Certified Pediatric Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="DIP" DisplayName="Diploma" Source="HL7"/>
+		<TableElement Code="DBA" DisplayName="Doctor of Business Administration" Source="HL7"/>
+		<TableElement Code="DED" DisplayName="Doctor of Education" Source="HL7"/>
+		<TableElement Code="PharmD" DisplayName="Doctor of Pharmacy" Source="HL7"/>
+		<TableElement Code="PHE" DisplayName="Doctor of Engineering" Source="HL7"/>
+		<TableElement Code="PHD" DisplayName="Doctor of Philosophy" Source="HL7"/>
+		<TableElement Code="PHS" DisplayName="Doctor of Science" Source="HL7"/>
+		<TableElement Code="MD" DisplayName="Doctor of Medicine" Source="HL7"/>
+		<TableElement Code="DO" DisplayName="Doctor of Osteopathy" Source="HL7"/>
+		<TableElement Code="EMT" DisplayName="Emergency Medical Technician" Source="HL7"/>
+		<TableElement Code="EMTP" DisplayName="Emergency Medical Technician - Paramedic" Source="HL7"/>
+		<TableElement Code="FPNP" DisplayName="Family Practice Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="HS" DisplayName="High School Graduate" Source="HL7"/>
+		<TableElement Code="JD" DisplayName="Juris Doctor" Source="HL7"/>
+		<TableElement Code="MA" DisplayName="Master of Arts" Source="HL7"/>
+		<TableElement Code="MBA" DisplayName="Master of Business Administration" Source="HL7"/>
+		<TableElement Code="MCE" DisplayName="Master of Civil Engineering" Source="HL7"/>
+		<TableElement Code="MDI" DisplayName="Master of Divinity" Source="HL7"/>
+		<TableElement Code="MED" DisplayName="Master of Education" Source="HL7"/>
+		<TableElement Code="MEE" DisplayName="Master of Electrical Engineering" Source="HL7"/>
+		<TableElement Code="ME" DisplayName="Master of Engineering" Source="HL7"/>
+		<TableElement Code="MFA" DisplayName="Master of Fine Arts" Source="HL7"/>
+		<TableElement Code="MME" DisplayName="Master of Mechanical Engineering" Source="HL7"/>
+		<TableElement Code="MS" DisplayName="Master of Science" Source="HL7"/>
+		<TableElement Code="MSL" DisplayName="Master of Science - Law" Source="HL7"/>
+		<TableElement Code="MSN" DisplayName="Master of Science - Nursing" Source="HL7"/>
+		<TableElement Code="MT" DisplayName="Master of Theology" Source="HL7"/>
+		<TableElement Code="MDA" DisplayName="Medical Assistant" Source="HL7"/>
+		<TableElement Code="NG" DisplayName="Non-Graduate" Source="HL7"/>
+		<TableElement Code="NP" DisplayName="Nurse Practitioner" Source="HL7"/>
+		<TableElement Code="PA" DisplayName="Physician Assistant" Source="HL7"/>
+		<TableElement Code="RMA" DisplayName="Registered Medical Assistant" Source="HL7"/>
+		<TableElement Code="RPH" DisplayName="Registered Pharmacist" Source="HL7"/>
+		<TableElement Code="SEC" DisplayName="Secretarial Certificate" Source="HL7"/>
+		<TableElement Code="TS" DisplayName="Trade School Graduate" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0361" Name="Application" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0362" Name="Facility" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0363" Name="Assigning authority" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0364" Name="Comment type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PI" DisplayName="Patient Instructions" Source="HL7"/>
+		<TableElement Code="AI" DisplayName="Ancillary Instructions" Source="HL7"/>
+		<TableElement Code="GI" DisplayName="General Instructions" Source="HL7"/>
+		<TableElement Code="1R" DisplayName="Primary Reason" Source="HL7"/>
+		<TableElement Code="2R" DisplayName="Secondary Reason" Source="HL7"/>
+		<TableElement Code="GR" DisplayName="General Reason" Source="HL7"/>
+		<TableElement Code="RE" DisplayName="Remark" Source="HL7"/>
+		<TableElement Code="DR" DisplayName="Duplicate/Interaction Reason" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0368" Name="Remote control command" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SA" DisplayName="Sampling" Source="HL7"/>
+		<TableElement Code="LO" DisplayName="Load" Source="HL7"/>
+		<TableElement Code="UN" DisplayName="Unload" Source="HL7"/>
+		<TableElement Code="LK" DisplayName="Lock" Source="HL7"/>
+		<TableElement Code="UC" DisplayName="Unlock" Source="HL7"/>
+		<TableElement Code="TT" DisplayName="Transport To" Source="HL7"/>
+		<TableElement Code="CN" DisplayName="Clear Notification" Source="HL7"/>
+		<TableElement Code="IN" DisplayName="Initialize/Initiate" Source="HL7"/>
+		<TableElement Code="SU" DisplayName="Setup" Source="HL7"/>
+		<TableElement Code="CL" DisplayName="Clear" Source="HL7"/>
+		<TableElement Code="PA" DisplayName="Pause" Source="HL7"/>
+		<TableElement Code="RE" DisplayName="Resume" Source="HL7"/>
+		<TableElement Code="ES" DisplayName="Emergency _stop" Source="HL7"/>
+		<TableElement Code="LC" DisplayName="Local Control Request" Source="HL7"/>
+		<TableElement Code="RC" DisplayName="Remote Control Request" Source="HL7"/>
+		<TableElement Code="AB" DisplayName="Abort" Source="HL7"/>
+		<TableElement Code="EN" DisplayName="Enable Sending Events" Source="HL7"/>
+		<TableElement Code="DI" DisplayName="Disable Sending Events" Source="HL7"/>
+		<TableElement Code="EX" DisplayName="Execute (command specified in field Parameters (ST) 01394)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0369" Name="Specimen Role" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Patient (default if blank component value)" Source="HL7"/>
+		<TableElement Code="Q" DisplayName="Control specimen" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Electronic QC, used with manufactured reference providing signals that simulate QC results" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Calibrator" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Specimen used for testing proficiency of the organization performing the testing (Filler)" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Blind Sample" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Replicate (of patient sample as a control)" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Group (where a specimen consists of multiple individual elements that are not individually identified)" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Specimen used for testing Operator Proficiency" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Verifying Calibrator, used for periodic calibration checks" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0372" Name="Specimen component" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SUP" DisplayName="Supernatant" Source="HL7"/>
+		<TableElement Code="SED" DisplayName="Sediment" Source="HL7"/>
+		<TableElement Code="BLD" DisplayName="Whole blood, homogeneous" Source="HL7"/>
+		<TableElement Code="BSEP" DisplayName="Whole blood, separated" Source="HL7"/>
+		<TableElement Code="PRP" DisplayName="Platelet rich plasma" Source="HL7"/>
+		<TableElement Code="PPP" DisplayName="Platelet poor plasma" Source="HL7"/>
+		<TableElement Code="SER" DisplayName="Serum, NOS (not otherwise specified)" Source="HL7"/>
+		<TableElement Code="PLAS" DisplayName="Plasma, NOS (not otherwise specified)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0374" Name="System induced contaminants" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CNTM" DisplayName="Present, type of contamination unspecified" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0375" Name="Artificial blood" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SFHB" DisplayName="Stromal free hemoglobin preparations" Source="HL7"/>
+		<TableElement Code="FLUR" DisplayName="Fluorocarbons" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0377" Name="Other environmental factors" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ATM" DisplayName="Opened container, atmosphere and duration unspecified" Source="HL7"/>
+		<TableElement Code="A60" DisplayName="Opened container, indoor atmosphere, 60 minutes duration" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0378" Name="Carrier type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0379" Name="Tray type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0380" Name="Separator type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0381" Name="Cap type" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0382" Name="Drug interference" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0385" Name="Manufacturer identifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0386" Name="Supplier identifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0387" Name="Command response" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="OK" DisplayName="Command completed successfully" Source="HL7"/>
+		<TableElement Code="TI" DisplayName="Command cannot be completed within requested completion time" Source="HL7"/>
+		<TableElement Code="ER" DisplayName="Command cannot be completed because of error condition" Source="HL7"/>
+		<TableElement Code="ST" DisplayName="Command cannot be completed because of the status of the requested equipment" Source="HL7"/>
+		<TableElement Code="UN" DisplayName="Command cannot be completed for unknown reasons" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0392" Name="Match reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="DB" DisplayName="Match on Date of Birth" Source="HL7"/>
+		<TableElement Code="NA" DisplayName="Match on Name (Alpha Match)" Source="HL7"/>
+		<TableElement Code="NP" DisplayName="Match on Name (Phonetic Match)" Source="HL7"/>
+		<TableElement Code="SS" DisplayName="Match on Social Security Number" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0393" Name="Match algorithms" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="LINKSOFT_2.01" DisplayName="Proprietary algorithm for LinkSoft v2.01" Source="HL7"/>
+		<TableElement Code="MATCHWARE_1.2" DisplayName="Proprietary algorithm for MatchWare v1.2" Source="HL7"/>
+		<TableElement Code="INFORMATICA_9.5" DisplayName="INFORMATICA_9.5" Source="NIST"/>
+	</TableDefinition>
+	<TableDefinition Id="0401" Name="Government reimbursement program" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="MM" DisplayName="Medicare" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Medi-Cal" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0402" Name="School type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="D" DisplayName="Dental" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Graduate" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Medical" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Undergraduate" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0405" Name="Organization Unit" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0406" Name="Organization unit type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="H" DisplayName="Home" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Office" Source="HL7"/>
+		<TableElement Code="1" DisplayName="Hospital" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Physician Clinic" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Long Term Care" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Acute Care" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Other" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0409" Name="Application change type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="SU" DisplayName="Start up" Source="HL7"/>
+		<TableElement Code="SD" DisplayName="Shut down" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Migrates to different CPU" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0411" Name="Supplemental Service Information Values" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0412" Name="Category Identifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0413" Name="Consent Identifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0414" Name="Units of Time" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0415" Name="DRG Transfer Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="N" DisplayName="DRG Non Exempt" Source="HL7"/>
+		<TableElement Code="E" DisplayName="DRG Exempt" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0416" Name="Procedure DRG Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="1st non-Operative" Source="HL7"/>
+		<TableElement Code="2" DisplayName="2nd non-Operative" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Major Operative" Source="HL7"/>
+		<TableElement Code="4" DisplayName="2nd Operative" Source="HL7"/>
+		<TableElement Code="5" DisplayName="3rd Operative" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0417" Name="Tissue Type Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Insufficient Tissue" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Not abnormal" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Abnormal-not categorized" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Mechanical abnormal" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Growth alteration" Source="HL7"/>
+		<TableElement Code="6" DisplayName="Degeneration &amp; necrosis" Source="HL7"/>
+		<TableElement Code="7" DisplayName="Non-acute inflammation" Source="HL7"/>
+		<TableElement Code="8" DisplayName="Non-malignant neoplasm" Source="HL7"/>
+		<TableElement Code="9" DisplayName="Malignant neoplasm" Source="HL7"/>
+		<TableElement Code="0" DisplayName="No tissue expected" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Basal cell carcinoma" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Carcinoma-unspecified type" Source="HL7"/>
+		<TableElement Code="G" DisplayName="Additional tissue required" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0421" Name="Severity of Illness Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="MI" DisplayName="Mild" Source="HL7"/>
+		<TableElement Code="MO" DisplayName="Moderate" Source="HL7"/>
+		<TableElement Code="SE" DisplayName="Severe" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0422" Name="Triage Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Non-acute" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Acute" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Urgent" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Severe" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Dead on Arrival (DOA)" Source="HL7"/>
+		<TableElement Code="99" DisplayName="Other" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0423" Name="Case Category Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="D" DisplayName="Doctor's Office Closed" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0424" Name="Gestation Category Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Premature / Pre-term" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Full Term" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Overdue / Post-term" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0425" Name="Newborn Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="5" DisplayName="Born at home" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Born en route" Source="HL7"/>
+		<TableElement Code="1" DisplayName="Born in facility" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Transfer in" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0426" Name="Blood Product Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="CRYO" DisplayName="Cryoprecipitated AHF" Source="HL7"/>
+		<TableElement Code="CRYOP" DisplayName="Pooled Cryoprecipitate" Source="HL7"/>
+		<TableElement Code="FFP" DisplayName="Fresh Frozen Plasma" Source="HL7"/>
+		<TableElement Code="FFPTH" DisplayName="Fresh Frozen Plasma - Thawed" Source="HL7"/>
+		<TableElement Code="PC" DisplayName="Packed Cells" Source="HL7"/>
+		<TableElement Code="PCA" DisplayName="Autologous Packed Cells" Source="HL7"/>
+		<TableElement Code="PCNEO" DisplayName="Packed Cells - Neonatal" Source="HL7"/>
+		<TableElement Code="PCW" DisplayName="Washed Packed Cells" Source="HL7"/>
+		<TableElement Code="PLT" DisplayName="Platelet Concentrate" Source="HL7"/>
+		<TableElement Code="PLTNEO" DisplayName="Reduced Volume Platelets" Source="HL7"/>
+		<TableElement Code="PLTP" DisplayName="Pooled Platelets" Source="HL7"/>
+		<TableElement Code="PLTPH" DisplayName="Platelet Pheresis" Source="HL7"/>
+		<TableElement Code="PLTPHLR" DisplayName="Leukoreduced Platelet Pheresis" Source="HL7"/>
+		<TableElement Code="RWB" DisplayName="Reconstituted Whole Blood" Source="HL7"/>
+		<TableElement Code="WBA" DisplayName="Autologous Whole Blood" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0427" Name="Risk Management Incident Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="B" DisplayName="Body fluid exposure" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Contaminated Substance" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Diet Errors" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Equipment problem" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Patient fell (not from bed)" Source="HL7"/>
+		<TableElement Code="H" DisplayName="Patient fell from bed" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Infusion error" Source="HL7"/>
+		<TableElement Code="J" DisplayName="Foreign object left during surgery" Source="HL7"/>
+		<TableElement Code="K" DisplayName="Sterile precaution violated" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Procedure error" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Pharmaceutical error" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Suicide Attempt" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Transfusion error" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0428" Name="Incident Type Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Preventable" Source="HL7"/>
+		<TableElement Code="U" DisplayName="User Error" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0429" Name="Production Class Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="BR" DisplayName="Breeding/genetic stock" Source="HL7"/>
+		<TableElement Code="DA" DisplayName="Dairy" Source="HL7"/>
+		<TableElement Code="DR" DisplayName="Draft" Source="HL7"/>
+		<TableElement Code="DU" DisplayName="Dual Purpose" Source="HL7"/>
+		<TableElement Code="LY" DisplayName="Layer, Includes Multiplier flocks" Source="HL7"/>
+		<TableElement Code="MT" DisplayName="Meat" Source="HL7"/>
+		<TableElement Code="OT" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="PL" DisplayName="Pleasure" Source="HL7"/>
+		<TableElement Code="RA" DisplayName="Racing" Source="HL7"/>
+		<TableElement Code="SH" DisplayName="Show" Source="HL7"/>
+		<TableElement Code="NA" DisplayName="Not Applicable" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0430" Name="Mode of Arrival Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Ambulance" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Car" Source="HL7"/>
+		<TableElement Code="F" DisplayName="On foot" Source="HL7"/>
+		<TableElement Code="H" DisplayName="Helicopter" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Public Transport" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0431" Name="Recreational Drug Use Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Alcohol" Source="HL7"/>
+		<TableElement Code="K" DisplayName="Kava" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Marijuana" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Tobacco - smoked" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Tobacco - chewed" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0432" Name="Admission Level of Care Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AC" DisplayName="Acute" Source="HL7"/>
+		<TableElement Code="CH" DisplayName="Chronic" Source="HL7"/>
+		<TableElement Code="CO" DisplayName="Comatose" Source="HL7"/>
+		<TableElement Code="CR" DisplayName="Critical" Source="HL7"/>
+		<TableElement Code="IM" DisplayName="Improved" Source="HL7"/>
+		<TableElement Code="MO" DisplayName="Moribund" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0433" Name="Precaution Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Aggressive" Source="HL7"/>
+		<TableElement Code="B" DisplayName="Blind" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Confused" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Deaf" Source="HL7"/>
+		<TableElement Code="I" DisplayName="On IV" Source="HL7"/>
+		<TableElement Code="N" DisplayName="&quot;No-code&quot; (i.e. Do not resuscitate)" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Paraplegic" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0434" Name="Patient Condition Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Satisfactory" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Critical" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Poor" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Stable" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0435" Name="Advance Directive Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="DNR" DisplayName="Do not resuscitate" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0436" Name="Sensitivity to Causative Agent Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AD" DisplayName="Adverse Reaction (Not otherwise classified)" Source="HL7"/>
+		<TableElement Code="AL" DisplayName="Allergy" Source="HL7"/>
+		<TableElement Code="CT" DisplayName="Contraindication" Source="HL7"/>
+		<TableElement Code="IN" DisplayName="Intolerance" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0437" Name="Alert Device Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="B" DisplayName="Bracelet" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Necklace" Source="HL7"/>
+		<TableElement Code="W" DisplayName="Wallet Card" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0438" Name="Allergy Clinical Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="U" DisplayName="Unconfirmed" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Pending" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Suspect" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Confirmed or verified" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Confirmed but inactive" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Erroneous" Source="HL7"/>
+		<TableElement Code="D" DisplayName="Doubt raised" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0441" Name="Immunization Registry Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="A" DisplayName="Active" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Inactive" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Inactive - Lost to follow-up (cancel contract)" Source="HL7"/>
+		<TableElement Code="M" DisplayName="Inactive - Moved or gone elsewhere (cancel contract)" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Inactive - Permanently inactive (Do not reactivate or add new entries to the record)" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0442" Name="Location Service Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="D" DisplayName="Diagnostic" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Therapeutic" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Primary Care" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Emergency Room Casualty" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0443" Name="Provider role" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AD" DisplayName="Admitting" Source="HL7"/>
+		<TableElement Code="AT" DisplayName="Attending" Source="HL7"/>
+		<TableElement Code="CP" DisplayName="Consulting Provider" Source="HL7"/>
+		<TableElement Code="FHCP" DisplayName="Family Health Care Professional" Source="HL7"/>
+		<TableElement Code="PP" DisplayName="Primary Care Provider" Source="HL7"/>
+		<TableElement Code="RP" DisplayName="Referring Provider" Source="HL7"/>
+		<TableElement Code="RT" DisplayName="Referred to Provider" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0445" Name="Identity Reliability Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="US" DisplayName="Unknown/Default Social Security Number" Source="HL7"/>
+		<TableElement Code="UD" DisplayName="Unknown/Default Date of Birth" Source="HL7"/>
+		<TableElement Code="UA" DisplayName="Unknown/Default Address" Source="HL7"/>
+		<TableElement Code="AL" DisplayName="Patient/Person Name is an Alias" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0446" Name="Species Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0447" Name="Breed Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0448" Name="Name context" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0451" Name="Substance identifier" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ALL" DisplayName="Used for query of all inventory items" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0455" Name="Type of Bill Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0456" Name="Revenue code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0457" Name="Overall Claim Disposition Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="0" DisplayName="No edits present on claim" Source="HL7"/>
+		<TableElement Code="1" DisplayName="Only edits present are for line item denial or rejection" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Multiple-day claim with one or more days denied or rejected" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Claim denied, rejected, suspended or returned to provider with only post payment edits" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Claim denied, rejected, suspended or returned to provider with only pre payment edits" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0458" Name="OCE Edit Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Invalid diagnosis code" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Diagnosis and age conflict" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Diagnosis and sex conflict" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Medicare secondary payer alert" Source="HL7"/>
+		<TableElement Code="5" DisplayName="E-code as reason for visit" Source="HL7"/>
+		<TableElement Code="6" DisplayName="Invalid procedure code" Source="HL7"/>
+		<TableElement Code="7" DisplayName="Procedure and age conflict" Source="HL7"/>
+		<TableElement Code="8" DisplayName="Procedure and sex conflict" Source="HL7"/>
+		<TableElement Code="9" DisplayName="Nov-covered service" Source="HL7"/>
+		<TableElement Code="10" DisplayName="Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)" Source="HL7"/>
+		<TableElement Code="11" DisplayName="Non-covered service submitted for FI review (condition code 20 from header information on claim)" Source="HL7"/>
+		<TableElement Code="12" DisplayName="Questionable covered service" Source="HL7"/>
+		<TableElement Code="13" DisplayName="Additional payment for service not provided by Medicare" Source="HL7"/>
+		<TableElement Code="14" DisplayName="Code indicates a site of service not included in OPPS" Source="HL7"/>
+		<TableElement Code="15" DisplayName="Service unit out of range for procedure" Source="HL7"/>
+		<TableElement Code="16" DisplayName="Multiple bilateral procedures without modifier 50 (see Appendix A)" Source="HL7"/>
+		<TableElement Code="17" DisplayName="Multiple bilateral procedures with modifier 50 (see Appendix A)" Source="HL7"/>
+		<TableElement Code="18" DisplayName="Inpatient procedure" Source="HL7"/>
+		<TableElement Code="19" DisplayName="Mutually exclusive procedure that is not allowed even if appropriate modifier present" Source="HL7"/>
+		<TableElement Code="20" DisplayName="Component of a comprehensive procedure that is not allowed even if appropriate modifier present" Source="HL7"/>
+		<TableElement Code="21" DisplayName="Medical visit on same day as a type &quot;T&quot; or &quot;S&quot; procedure without modifier 25 (see Appendix B)" Source="HL7"/>
+		<TableElement Code="22" DisplayName="Invalid modifier" Source="HL7"/>
+		<TableElement Code="23" DisplayName="Invalid date" Source="HL7"/>
+		<TableElement Code="24" DisplayName="Date out of OCE range" Source="HL7"/>
+		<TableElement Code="25" DisplayName="Invalid age" Source="HL7"/>
+		<TableElement Code="26" DisplayName="Invalid sex" Source="HL7"/>
+		<TableElement Code="27" DisplayName="Only incidental services reported" Source="HL7"/>
+		<TableElement Code="28" DisplayName="Code not recognized by Medicare; alternate code for same service available" Source="HL7"/>
+		<TableElement Code="29" DisplayName="Partial hospitalization service for non-mental health diagnosis" Source="HL7"/>
+		<TableElement Code="30" DisplayName="Insufficient services on day of partial hospitalization" Source="HL7"/>
+		<TableElement Code="31" DisplayName="Partial hospitalization on same day as ECT or type &quot;T&quot; procedure" Source="HL7"/>
+		<TableElement Code="32" DisplayName="Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days" Source="HL7"/>
+		<TableElement Code="33" DisplayName="Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services" Source="HL7"/>
+		<TableElement Code="34" DisplayName="Partial hospitalization claim spans more than 3 days with insufficient number of days meeting partial hospitalization criteria" Source="HL7"/>
+		<TableElement Code="35" DisplayName="Only activity therapy and/or occupational therapy services provided" Source="HL7"/>
+		<TableElement Code="36" DisplayName="Extensive mental health services provided on day of ECT or significant procedure" Source="HL7"/>
+		<TableElement Code="37" DisplayName="Terminated bilateral procedure or terminated procedure with units greater than one" Source="HL7"/>
+		<TableElement Code="38" DisplayName="Inconsistency between implanted device and implantation procedure" Source="HL7"/>
+		<TableElement Code="39" DisplayName="Mutually exclusive procedure that would be allowed if appropriate modifier were present" Source="HL7"/>
+		<TableElement Code="40." DisplayName="Component of a comprehensive procedure that would be allowed if appropriate modifier were present" Source="HL7"/>
+		<TableElement Code="41." DisplayName="Invalid revenue code" Source="HL7"/>
+		<TableElement Code="42." DisplayName="Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0459" Name="Reimbursement Action Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="0" DisplayName="OCE line item denial or rejection is not ignored" Source="HL7"/>
+		<TableElement Code="1" DisplayName="OCE line item denial or rejection is ignored" Source="HL7"/>
+		<TableElement Code="2" DisplayName="External line item denial. Line item is denied even if no OCE edits" Source="HL7"/>
+		<TableElement Code="3" DisplayName="External line item rejection. Line item is rejected even if no OCE edits" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0461" Name="License Number" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0462" Name="Location cost center" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0463" Name="Inventory Number" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0464" Name="Facility ID" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0469" Name="Packaging Status Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="0" DisplayName="Not packaged" Source="HL7"/>
+		<TableElement Code="1" DisplayName="Packaged service (status indicator N, or no HCPCS code and certain revenue codes)" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Packaged as part of partial hospitalization per diem or daily mental health service per diem" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0471" Name="Query name" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="IHE PDQ Query" DisplayName="IHE PDQ Query" Source="NIST"/>
+		<TableElement Code="IHE PIX Query" DisplayName="IHE PIX Query" Source="NIST"/>
+	</TableDefinition>
+	<TableDefinition Id="0473" Name="Formulary Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="G" DisplayName="This observation/service is on the formulary, and has guidelines" Source="HL7"/>
+		<TableElement Code="N" DisplayName="This observation/service is not on the formulary" Source="HL7"/>
+		<TableElement Code="R" DisplayName="This observation/service is on the formulary, but is restricted" Source="HL7"/>
+		<TableElement Code="Y" DisplayName="This observation/service is on the formulary" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0474" Name="Organization Unit Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="D" DisplayName="Department" Source="HL7"/>
+		<TableElement Code="F" DisplayName="Facility" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Subdepartment" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Subdivision" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Division" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0475" Name="Charge Type Reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="01" DisplayName="Allergy" Source="HL7"/>
+		<TableElement Code="02" DisplayName="Intolerance" Source="HL7"/>
+		<TableElement Code="03" DisplayName="Treatment Failure" Source="HL7"/>
+		<TableElement Code="04" DisplayName="Patient Request" Source="HL7"/>
+		<TableElement Code="05" DisplayName="No Exception" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0476" Name="Medically Necessary Duplicate Procedure Reason" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0477" Name="Controlled Substance Schedule*" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="I" DisplayName="Schedule I" Source="HL7"/>
+		<TableElement Code="II" DisplayName="Schedule II" Source="HL7"/>
+		<TableElement Code="III" DisplayName="Schedule III" Source="HL7"/>
+		<TableElement Code="IV" DisplayName="Schedule IV" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Schedule V" Source="HL7"/>
+		<TableElement Code="VI" DisplayName="Schedule VI" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0479" Name="Pharmaceutical Substances" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0484" Name="Dispense Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="B" DisplayName="Trial Quantity Balance" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Compassionate Fill" Source="HL7"/>
+		<TableElement Code="N" DisplayName="New/Renew - Full Fill" Source="HL7"/>
+		<TableElement Code="P" DisplayName="New/Renew - Part Fill" Source="HL7"/>
+		<TableElement Code="Q" DisplayName="Refill - Part Fill" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Refill - Full Fill" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Manufacturer Sample" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Trial Quantity" Source="HL7"/>
+		<TableElement Code="Z" DisplayName="Non-Prescription Fill" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0485" Name="Extended Priority Codes" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="TW&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="TS&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="TM&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="TL&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="TH&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="TD&lt;integer&gt;" DisplayName="" Source="HL7"/>
+		<TableElement Code="S" DisplayName="Stat" Source="HL7"/>
+		<TableElement Code="A" DisplayName="ASAP" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Routine" Source="HL7"/>
+		<TableElement Code="P" DisplayName="Preop" Source="HL7"/>
+		<TableElement Code="C" DisplayName="Callback" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Timing critical" Source="HL7"/>
+		<TableElement Code="PRN" DisplayName="As needed" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0493" Name="Specimen Condition" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AUT" DisplayName="Autolyzed" Source="HL7"/>
+		<TableElement Code="CLOT" DisplayName="Clotted" Source="HL7"/>
+		<TableElement Code="CON" DisplayName="Contaminated" Source="HL7"/>
+		<TableElement Code="COOL" DisplayName="Cool" Source="HL7"/>
+		<TableElement Code="FROZ" DisplayName="Frozen" Source="HL7"/>
+		<TableElement Code="HEM" DisplayName="Hemolyzed" Source="HL7"/>
+		<TableElement Code="LIVE" DisplayName="Live" Source="HL7"/>
+		<TableElement Code="ROOM" DisplayName="Room temperature" Source="HL7"/>
+		<TableElement Code="SNR" DisplayName="Sample not received" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0496" Name="Consent Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="001" DisplayName="Release of Information/MR / Authorization to Disclosure Protected Health Information" Source="HL7"/>
+		<TableElement Code="002" DisplayName="Medical Procedure (invasive)" Source="HL7"/>
+		<TableElement Code="003" DisplayName="Acknowledge Receipt of Privacy Notice" Source="HL7"/>
+		<TableElement Code="004" DisplayName="Abortion" Source="HL7"/>
+		<TableElement Code="005" DisplayName="Abortion/Laminaria" Source="HL7"/>
+		<TableElement Code="006" DisplayName="Accutane - Information" Source="HL7"/>
+		<TableElement Code="007" DisplayName="Accutane - Woman" Source="HL7"/>
+		<TableElement Code="008" DisplayName="Advanced Beneficiary Notice" Source="HL7"/>
+		<TableElement Code="009" DisplayName="AFP (Alpha Fetoprotein) Screening" Source="HL7"/>
+		<TableElement Code="010" DisplayName="Amniocentesis (consent &amp; refusal)" Source="HL7"/>
+		<TableElement Code="011" DisplayName="Anatomical Gift (organ donation)" Source="HL7"/>
+		<TableElement Code="012" DisplayName="Anesthesia - Complications" Source="HL7"/>
+		<TableElement Code="013" DisplayName="Anesthesia - Questionnaire" Source="HL7"/>
+		<TableElement Code="014" DisplayName="Angiogram" Source="HL7"/>
+		<TableElement Code="015" DisplayName="Angioplasty" Source="HL7"/>
+		<TableElement Code="016" DisplayName="Anticancer Drugs" Source="HL7"/>
+		<TableElement Code="017" DisplayName="Antipsychotic Medications" Source="HL7"/>
+		<TableElement Code="018" DisplayName="Arthrogram" Source="HL7"/>
+		<TableElement Code="019" DisplayName="Autopsy" Source="HL7"/>
+		<TableElement Code="020" DisplayName="AZT Therapy" Source="HL7"/>
+		<TableElement Code="021" DisplayName="Biliary Drainage" Source="HL7"/>
+		<TableElement Code="022" DisplayName="Biliary Stone Extraction" Source="HL7"/>
+		<TableElement Code="023" DisplayName="Biopsy" Source="HL7"/>
+		<TableElement Code="024" DisplayName="Bleeding Time Test" Source="HL7"/>
+		<TableElement Code="025" DisplayName="Bronchogram" Source="HL7"/>
+		<TableElement Code="026" DisplayName="Cardiac Catheterization" Source="HL7"/>
+		<TableElement Code="027" DisplayName="Coronary Angiography" Source="HL7"/>
+		<TableElement Code="028" DisplayName="&quot;&quot;      &quot;&quot; w/o Surgery Capability" Source="HL7"/>
+		<TableElement Code="029" DisplayName="Cataract Op/Implant of FDA Aprvd Lens" Source="HL7"/>
+		<TableElement Code="030" DisplayName="Cataract Op/Implant of Investigational Lens" Source="HL7"/>
+		<TableElement Code="031" DisplayName="Cataract Surgery" Source="HL7"/>
+		<TableElement Code="032" DisplayName="Cholera Immunization" Source="HL7"/>
+		<TableElement Code="033" DisplayName="Cholesterol Screening" Source="HL7"/>
+		<TableElement Code="034" DisplayName="Circumcision - Newborn" Source="HL7"/>
+		<TableElement Code="035" DisplayName="Colonoscopy" Source="HL7"/>
+		<TableElement Code="036" DisplayName="Contact Lenses" Source="HL7"/>
+		<TableElement Code="037" DisplayName="CT Scan - Cervical &amp; Lumbar" Source="HL7"/>
+		<TableElement Code="038" DisplayName="CT Scan w/ IV Contrast Media into Vein" Source="HL7"/>
+		<TableElement Code="039" DisplayName="CVS (Chorionic Villus) Sampling" Source="HL7"/>
+		<TableElement Code="040" DisplayName="Cystospy" Source="HL7"/>
+		<TableElement Code="041" DisplayName="Disclosure of Protected Health Information to Family/Friends" Source="HL7"/>
+		<TableElement Code="042" DisplayName="D &amp; C and Conization" Source="HL7"/>
+		<TableElement Code="043" DisplayName="Dacryocystogram" Source="HL7"/>
+		<TableElement Code="044" DisplayName="Diagnostic Isotope" Source="HL7"/>
+		<TableElement Code="045" DisplayName="Drainage of an Abscess" Source="HL7"/>
+		<TableElement Code="046" DisplayName="Drug Screening" Source="HL7"/>
+		<TableElement Code="047" DisplayName="Electronic Monitoring of Labor - Refusal" Source="HL7"/>
+		<TableElement Code="048" DisplayName="Endometrial Biopsy" Source="HL7"/>
+		<TableElement Code="049" DisplayName="Endoscopy/Sclerosis of Esophageal Varices" Source="HL7"/>
+		<TableElement Code="050" DisplayName="ERCP" Source="HL7"/>
+		<TableElement Code="051" DisplayName="Exposure to reportable Communicable Disease" Source="HL7"/>
+		<TableElement Code="052" DisplayName="External Version" Source="HL7"/>
+		<TableElement Code="053" DisplayName="Fluorescein Angioscopy" Source="HL7"/>
+		<TableElement Code="054" DisplayName="Hepatitis B - Consent/Declination" Source="HL7"/>
+		<TableElement Code="055" DisplayName="Herniogram" Source="HL7"/>
+		<TableElement Code="056" DisplayName="HIV Test - Consent Refusal" Source="HL7"/>
+		<TableElement Code="057" DisplayName="HIV Test - Disclosure" Source="HL7"/>
+		<TableElement Code="058" DisplayName="HIV Test - Prenatal" Source="HL7"/>
+		<TableElement Code="059" DisplayName="Home IV Treatment Program" Source="HL7"/>
+		<TableElement Code="060" DisplayName="Home Parenteral Treatment Program" Source="HL7"/>
+		<TableElement Code="061" DisplayName="Hysterectomy" Source="HL7"/>
+		<TableElement Code="062" DisplayName="Hysterosalpingogram" Source="HL7"/>
+		<TableElement Code="063" DisplayName="Injection Slip/ Consent" Source="HL7"/>
+		<TableElement Code="064" DisplayName="Intrauterine Device" Source="HL7"/>
+		<TableElement Code="065" DisplayName="Intrauterine Device/Sterilization" Source="HL7"/>
+		<TableElement Code="066" DisplayName="Intravascular Infusion of Streptokinase/Urokinase" Source="HL7"/>
+		<TableElement Code="067" DisplayName="Intravenous Cholangiogram" Source="HL7"/>
+		<TableElement Code="068" DisplayName="Intravenous Digital Angiography" Source="HL7"/>
+		<TableElement Code="069" DisplayName="Iodine Administration" Source="HL7"/>
+		<TableElement Code="070" DisplayName="ISG" Source="HL7"/>
+		<TableElement Code="071" DisplayName="IVP" Source="HL7"/>
+		<TableElement Code="072" DisplayName="Laser Photocoagulation" Source="HL7"/>
+		<TableElement Code="073" DisplayName="Laser treatment" Source="HL7"/>
+		<TableElement Code="074" DisplayName="Lithium Carbonate" Source="HL7"/>
+		<TableElement Code="075" DisplayName="Liver Biopsy" Source="HL7"/>
+		<TableElement Code="076" DisplayName="Lumbar Puncture" Source="HL7"/>
+		<TableElement Code="077" DisplayName="Lymphangiogram" Source="HL7"/>
+		<TableElement Code="078" DisplayName="MAO Inhibitors" Source="HL7"/>
+		<TableElement Code="079" DisplayName="Med, Psych, and/or Drug/Alcohol" Source="HL7"/>
+		<TableElement Code="080" DisplayName="Medical Treatment - Refusal" Source="HL7"/>
+		<TableElement Code="081" DisplayName="Morning-after Pill" Source="HL7"/>
+		<TableElement Code="082" DisplayName="MRI - Adult" Source="HL7"/>
+		<TableElement Code="083" DisplayName="MRI - Pediatric" Source="HL7"/>
+		<TableElement Code="084" DisplayName="Myelogram" Source="HL7"/>
+		<TableElement Code="085" DisplayName="Needle Biopsy" Source="HL7"/>
+		<TableElement Code="086" DisplayName="Needle Biopsy of Lung" Source="HL7"/>
+		<TableElement Code="087" DisplayName="Newborn Treatment and Release" Source="HL7"/>
+		<TableElement Code="088" DisplayName="Norplant Subdermal Birth Control Implant" Source="HL7"/>
+		<TableElement Code="089" DisplayName="Operations, Anesthesia, Transfusions" Source="HL7"/>
+		<TableElement Code="090" DisplayName="Oral Contraceptives" Source="HL7"/>
+		<TableElement Code="091" DisplayName="Organ Donation" Source="HL7"/>
+		<TableElement Code="092" DisplayName="Patient Permits, Consents" Source="HL7"/>
+		<TableElement Code="093" DisplayName="Patient Treatment Permit, Release &amp; Admission" Source="HL7"/>
+		<TableElement Code="094" DisplayName="Penile Injections" Source="HL7"/>
+		<TableElement Code="095" DisplayName="Percutaneous Nephrostomy" Source="HL7"/>
+		<TableElement Code="096" DisplayName="Percutaneous Transhepatic Cholangiogram" Source="HL7"/>
+		<TableElement Code="097" DisplayName="Photographs" Source="HL7"/>
+		<TableElement Code="098" DisplayName="Photographs - Employee" Source="HL7"/>
+		<TableElement Code="099" DisplayName="Photographs - Medical Research" Source="HL7"/>
+		<TableElement Code="100" DisplayName="Photographs - news Media" Source="HL7"/>
+		<TableElement Code="101" DisplayName="Psychiatric Admission - Next of Kin" Source="HL7"/>
+		<TableElement Code="102" DisplayName="Psychiatric Information During Hospital Stay" Source="HL7"/>
+		<TableElement Code="103" DisplayName="Public Release of Information" Source="HL7"/>
+		<TableElement Code="104" DisplayName="Radiologic Procedure" Source="HL7"/>
+		<TableElement Code="105" DisplayName="Refusal of Treatment" Source="HL7"/>
+		<TableElement Code="106" DisplayName="Release of Body" Source="HL7"/>
+		<TableElement Code="107" DisplayName="Release of Limb" Source="HL7"/>
+		<TableElement Code="108" DisplayName="Rh Immune Globulin" Source="HL7"/>
+		<TableElement Code="109" DisplayName="Rights of Medical Research Participants" Source="HL7"/>
+		<TableElement Code="110" DisplayName="Request to Restrict Access/Disclosure to Medical Record/Protected Health Information" Source="HL7"/>
+		<TableElement Code="111" DisplayName="Request for Remain Anonymous" Source="HL7"/>
+		<TableElement Code="112" DisplayName="Seat Belt Exemption" Source="HL7"/>
+		<TableElement Code="113" DisplayName="Sialogram" Source="HL7"/>
+		<TableElement Code="114" DisplayName="Sigmoidoscopy" Source="HL7"/>
+		<TableElement Code="115" DisplayName="Sterilization - Anesthesia &amp; Medical Services" Source="HL7"/>
+		<TableElement Code="116" DisplayName="Sterilization -Federally Funded" Source="HL7"/>
+		<TableElement Code="117" DisplayName="Sterilization - Female" Source="HL7"/>
+		<TableElement Code="118" DisplayName="Sterilization - Laparoscopy/Pomeroy" Source="HL7"/>
+		<TableElement Code="119" DisplayName="Sterilization - Non-Federally Funded" Source="HL7"/>
+		<TableElement Code="120" DisplayName="Sterilization - Secondary" Source="HL7"/>
+		<TableElement Code="121" DisplayName="Tranquilizers" Source="HL7"/>
+		<TableElement Code="122" DisplayName="Transfer - Acknowledgement" Source="HL7"/>
+		<TableElement Code="123" DisplayName="Transfer - Authorization" Source="HL7"/>
+		<TableElement Code="124" DisplayName="Transfer Certification - Physician" Source="HL7"/>
+		<TableElement Code="125" DisplayName="Transfer/Discharge Request" Source="HL7"/>
+		<TableElement Code="126" DisplayName="Transfer for Non-Medical Reasons" Source="HL7"/>
+		<TableElement Code="127" DisplayName="Transfer - Interfaculty Neonatal" Source="HL7"/>
+		<TableElement Code="128" DisplayName="Transfer Refusal" Source="HL7"/>
+		<TableElement Code="129" DisplayName="Transfer Refusal of Further Treatment" Source="HL7"/>
+		<TableElement Code="130" DisplayName="Treadmill &amp; EKG" Source="HL7"/>
+		<TableElement Code="131" DisplayName="Treadmill, Thallium-201" Source="HL7"/>
+		<TableElement Code="132" DisplayName="Typhoid" Source="HL7"/>
+		<TableElement Code="133" DisplayName="Use of Investigational Device" Source="HL7"/>
+		<TableElement Code="134" DisplayName="Use of Investigational Drug" Source="HL7"/>
+		<TableElement Code="135" DisplayName="Venogram" Source="HL7"/>
+		<TableElement Code="136" DisplayName="Videotape" Source="HL7"/>
+		<TableElement Code="1137" DisplayName="Voiding Cystogram" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0499" Name="Consent Bypass Reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="PJ" DisplayName="Professional Judgment" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0501" Name="Consent Non-Disclosure Reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="E" DisplayName="Emergency" Source="HL7"/>
+		<TableElement Code="RX" DisplayName="Rx Private" Source="HL7"/>
+		<TableElement Code="PR" DisplayName="Patient Request" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0502" Name="Non-Subject Consenter Reason" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="MIN" DisplayName="Subject is a minor" Source="HL7"/>
+		<TableElement Code="NC" DisplayName="Subject is not competent to consent" Source="HL7"/>
+		<TableElement Code="LM" DisplayName="Legally mandated" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0507" Name="Observation Result Handling" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="F" DisplayName="Film-with-patient" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Notify provider when ready" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0508" Name="Blood Product Processing Requirements" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="LR" DisplayName="Leukoreduced" Source="HL7"/>
+		<TableElement Code="IR" DisplayName="Irradiated" Source="HL7"/>
+		<TableElement Code="CS" DisplayName="CMV Safe" Source="HL7"/>
+		<TableElement Code="FR" DisplayName="Fresh unit" Source="HL7"/>
+		<TableElement Code="AU" DisplayName="Autologous Unit" Source="HL7"/>
+		<TableElement Code="DI" DisplayName="Directed Unit" Source="HL7"/>
+		<TableElement Code="HL" DisplayName="HLA Matched" Source="HL7"/>
+		<TableElement Code="CM" DisplayName="CMV Negative" Source="HL7"/>
+		<TableElement Code="HB" DisplayName="Hemoglobin S Negative" Source="HL7"/>
+		<TableElement Code="WA" DisplayName="Washed" Source="HL7"/>
+		<TableElement Code="IG" DisplayName="IgA Deficient" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0509" Name="Indication For Use" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0512" Name="Commercial Product" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0514" Name="Transfusion Adverse Reaction" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="ABOINC" DisplayName="ABO Incompatible Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="ACUTHEHTR" DisplayName="Acute Hemolytic Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="ALLERGIC1" DisplayName="Allergic Reaction - First" Source="HL7"/>
+		<TableElement Code="ALLERGIC2" DisplayName="Allergic Reaction - Recurrent" Source="HL7"/>
+		<TableElement Code="ALLERGICR" DisplayName="Allergic Reaction - Repeating" Source="HL7"/>
+		<TableElement Code="ANAPHYLAC" DisplayName="Anaphylactic Reaction" Source="HL7"/>
+		<TableElement Code="BACTCONTAM" DisplayName="Reaction to Bacterial Contamination" Source="HL7"/>
+		<TableElement Code="DELAYEDHTR" DisplayName="Delayed Hemolytic Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="DELAYEDSTR" DisplayName="Delayed Serological Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="GVHD" DisplayName="Graft vs Host Disease - Transfusion - Associated" Source="HL7"/>
+		<TableElement Code="HYPOTENS" DisplayName="Non-hemolytic Hypotensive Reaction" Source="HL7"/>
+		<TableElement Code="NONHTR1" DisplayName="Non-Hemolytic Fever Chill Transfusion Reaction - First" Source="HL7"/>
+		<TableElement Code="NONHTR2" DisplayName="Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent" Source="HL7"/>
+		<TableElement Code="NONHTRREC" DisplayName="Non-Hemolytic Fever Chill Transfusion Reaction - Repeating" Source="HL7"/>
+		<TableElement Code="NONIMMUNE" DisplayName="Non-Immune Hemolysis" Source="HL7"/>
+		<TableElement Code="NONSPEC" DisplayName="Non-Specific, Non-Hemolytic Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="NORXN" DisplayName="No Evidence of Transfusion Reaction" Source="HL7"/>
+		<TableElement Code="PTP" DisplayName="Posttransfusion Purpura" Source="HL7"/>
+		<TableElement Code="VOLOVER" DisplayName="Symptoms most likely due to volume overload" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0515" Name="Transfusion Interrupted Reason" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0517" Name="Inform person code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="PAT" DisplayName="Inform patient" Source="HL7"/>
+		<TableElement Code="NPAT" DisplayName="Do NOT inform patient" Source="HL7"/>
+		<TableElement Code="USR" DisplayName="Inform User" Source="HL7"/>
+		<TableElement Code="HD" DisplayName="Inform help desk" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0518" Name="Override type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="EXTN" DisplayName="Extension Override" Source="HL7"/>
+		<TableElement Code="INLV" DisplayName="Interval Override" Source="HL7"/>
+		<TableElement Code="EQV" DisplayName="Equivalence Override" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0519" Name="Override reason" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0521" Name="Override code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0530" Name="Organization, agency, department" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="AE" DisplayName="American Express" Source="HL7"/>
+		<TableElement Code="DEA" DisplayName="Drug Enforcement Agency" Source="HL7"/>
+		<TableElement Code="DOD" DisplayName="Department of Defense" Source="HL7"/>
+		<TableElement Code="MC" DisplayName="Master Card" Source="HL7"/>
+		<TableElement Code="VA" DisplayName="Veterans Affairs" Source="HL7"/>
+		<TableElement Code="VI" DisplayName="Visa" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0533" Name="Application error code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0534" Name="Notify Clergy Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="Y" DisplayName="Yes" Source="HL7"/>
+		<TableElement Code="N" DisplayName="No" Source="HL7"/>
+		<TableElement Code="L" DisplayName="Last Rites only" Source="HL7"/>
+		<TableElement Code="O" DisplayName="Other" Source="HL7"/>
+		<TableElement Code="U" DisplayName="Unknown" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0535" Name="Signature Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="C" DisplayName="Signed CMS-1500 claim form on file, e.g. authorization for release of any medical or other information necessary to process this claim and assignment of benefits." Source="HL7"/>
+		<TableElement Code="S" DisplayName="Signed authorization for release of any medical or other information necessary to process this claim on file." Source="HL7"/>
+		<TableElement Code="M" DisplayName="Signed authorization for assignment of benefits on file." Source="HL7"/>
+		<TableElement Code="P" DisplayName="Signature generated by provider because the patient was not physically present for services." Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0536" Name="Certificate Status" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="P" DisplayName="Provisional" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Revoked" Source="HL7"/>
+		<TableElement Code="V" DisplayName="Active/Valid" Source="HL7"/>
+		<TableElement Code="E" DisplayName="Expired" Source="HL7"/>
+		<TableElement Code="I" DisplayName="Inactive" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0537" Name="Institution" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0538" Name="Institution Relationship Type" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="EMP" DisplayName="Employee" Source="HL7"/>
+		<TableElement Code="VOL" DisplayName="Volunteer" Source="HL7"/>
+		<TableElement Code="CON" DisplayName="Contractor" Source="HL7"/>
+		<TableElement Code="CST" DisplayName="Consultant" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0539" Name="Cost Center Code" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0540" Name="Inactive Reason Code" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="L" DisplayName="Leave of Absence" Source="HL7"/>
+		<TableElement Code="T" DisplayName="Termination" Source="HL7"/>
+		<TableElement Code="R" DisplayName="Retired" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0541" Name="Specimen Type Modifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0542" Name="Specimen Source Type Modifier" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0543" Name="Specimen Collection Site" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0544" Name="Container Condition" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<!--<TableDefinition Id="0545" Name="Language Translated To" Codesys="HL7" Version="2.5" Type="User"/>-->
+	<TableDefinition Id="0547" Name="Jurisdictional Breadth" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="C" DisplayName="County/Parish" Source="HL7"/>
+		<TableElement Code="S" DisplayName="State/Province" Source="HL7"/>
+		<TableElement Code="N" DisplayName="Country" Source="HL7"/>
+	</TableDefinition>
+	<TableDefinition Id="0548" Name="Signatory's Relationship to Subject" Codesys="HL7" Version="2.5" Type="User">
+		<TableElement Code="1" DisplayName="Self" Source="HL7"/>
+		<TableElement Code="2" DisplayName="Parent" Source="HL7"/>
+		<TableElement Code="3" DisplayName="Next of Kin" Source="HL7"/>
+		<TableElement Code="4" DisplayName="Durable Power of Attorney in Healthcare Affairs" Source="HL7"/>
+		<TableElement Code="5" DisplayName="Conservator" Source="HL7"/>
+		<TableElement Code="6" DisplayName="Emergent Practitioner (practitioner judging case as emergency requiring care without a consent)" Source="HL7"/>
+		<TableElement Code="7" DisplayName="Non-Emergent Practitioner (i.e. medical ethics committee)" Source="HL7"/>
+	</TableDefinition>
+	<!--<TableDefinition Id="0549" Name="NDC Codes" Codesys="HL7" Version="2.5" Type="User"/>-->
+</TableLibrary>

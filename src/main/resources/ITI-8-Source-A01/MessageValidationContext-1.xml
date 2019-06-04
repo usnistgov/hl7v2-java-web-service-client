@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:HL7V2MessageValidationContextDefinition xmlns:con="http://www.nist.gov/healthcare/validation/message/hl7/v2/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<con:ValidationConfiguration>
+		<con:HL7Tables>
+			<con:All/>
+		</con:HL7Tables>
+		<con:UserTables>
+			<con:All/>
+		</con:UserTables>
+	</con:ValidationConfiguration>
+	<con:FailureInterpretation>
+		<con:MessageFailure Result="IGNORE" Type="LENGTH"/>
+	</con:FailureInterpretation>
+	<con:MessageInstanceSpecificValues>
+		<!--MSH[1].9[1].1-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="MSH" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="9" InstanceNumber="1">
+						<mes:Component Position="1"/>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">ADT</val:PlainText>
+			</con:Value>
+		</con:DataValueLocationItem>
+		<!--MSH[1].9[1].2-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="MSH" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="9" InstanceNumber="1">
+						<mes:Component Position="2"/>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">A01</val:PlainText>
+			</con:Value>
+		</con:DataValueLocationItem>
+		<!--MSH[1].9[1].3-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="MSH" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="9" InstanceNumber="1">
+						<mes:Component Position="3"/>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">ADT_A01</val:PlainText>
+			</con:Value>
+				<con:Value>
+				<val:Empty xmlns:val="http://www.nist.gov/healthcare/validation"/>
+			</con:Value>
+		</con:DataValueLocationItem>
+		<!--PID[1].3[1].4.1-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="PID" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="3" InstanceNumber="1">
+						<mes:Component Position="4">
+							<mes:SubComponent Position="1"/>
+						</mes:Component>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">NIST2010</val:PlainText>
+			</con:Value>
+			<con:Value>
+				<val:Empty xmlns:val="http://www.nist.gov/healthcare/validation"/>
+			</con:Value>
+		</con:DataValueLocationItem>
+		<!--PID[1].3[1].4.2-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="PID" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="3" InstanceNumber="1">
+						<mes:Component Position="4">
+							<mes:SubComponent Position="2"/>
+						</mes:Component>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">2.16.840.1.113883.3.72.5.9.1</val:PlainText>
+			</con:Value>
+			<con:Value>
+				<val:Empty xmlns:val="http://www.nist.gov/healthcare/validation"/>
+			</con:Value>
+		</con:DataValueLocationItem>
+		<!--PID[1].3[1].4.3-->
+		<con:DataValueLocationItem>
+			<con:Location>
+				<mes:Segment Name="PID" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+					<mes:Field Position="3" InstanceNumber="1">
+						<mes:Component Position="4">
+							<mes:SubComponent Position="3"/>
+						</mes:Component>
+					</mes:Field>
+				</mes:Segment>
+			</con:Location>
+			<con:Value>
+				<val:PlainText xmlns:val="http://www.nist.gov/healthcare/validation">ISO</val:PlainText>
+			</con:Value>
+			<con:Value>
+				<val:Empty xmlns:val="http://www.nist.gov/healthcare/validation"/>
+			</con:Value>
+		</con:DataValueLocationItem>
+	</con:MessageInstanceSpecificValues>
+	<con:DatatypeCheck Datatype="HD">
+		<con:Location>
+			<mes:Segment Name="PID" InstanceNumber="1" xmlns:mes="http://www.nist.gov/healthcare/message">
+				<mes:Field Position="3" InstanceNumber="1">
+					<mes:Component Position="4"/>
+				</mes:Field>
+			</mes:Segment>
+		</con:Location>
+	</con:DatatypeCheck>
+</con:HL7V2MessageValidationContextDefinition>

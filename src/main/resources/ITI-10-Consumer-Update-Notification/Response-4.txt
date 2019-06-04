@@ -1,0 +1,2 @@
+MSH|^~\&|ReceivingApplication|ReceivingFacility|SendingApplication|SendingFacility|20101101170641||ACK^A31^ACK|1fcead21-c580-4681-b331-e09da7c8562e|P|2.5
+MSA|AA|NIST-101004144709009|
