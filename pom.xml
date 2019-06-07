@@ -3,10 +3,6 @@
   <groupId>gov.nist.hl7.v2.ws</groupId>
   <artifactId>ws-client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-      <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-    </properties>
   <dependencies>
   	<dependency>
   		<groupId>commons-codec</groupId>
@@ -56,5 +52,18 @@
 	    <artifactId>cxf-rt-frontend-simple</artifactId>
 	    <version>2.3.2</version>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/javax.xml.rpc/javax.xml.rpc-api -->
+<dependency>
+    <groupId>javax.xml.rpc</groupId>
+    <artifactId>javax.xml.rpc-api</artifactId>
+    <version>1.1.2</version>
+</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.axis/axis -->
+<dependency>
+    <groupId>org.apache.axis</groupId>
+    <artifactId>axis</artifactId>
+    <version>1.4</version>
+</dependency>
+	
   </dependencies>
 </project>

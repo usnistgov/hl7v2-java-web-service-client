@@ -34,8 +34,17 @@ public class HL7WSClient {
 		String[] msh9Components;
 		String[] msh12Components;
 		String message;
+		String message2;
+		String message2FN;
 		String profileFN;
+		String profile2FN;
+		String constraintsFN;
+		String valueSetLibraryFN;
+		String constraints;
+		String messageId;
+		String valueSetLibrary;
 		String profile;
+		String profile2;
 		String basetablesFN;
 		String usertablesFN;
 		String baseTables;
@@ -206,23 +215,50 @@ public class HL7WSClient {
 		System.out.println("\n\nMap = " +  map);
 
 
-		//
+		// gets the message id for our profile
+		 messageId = "aa72383a-7b48-46e5-a74a-82e019591fe7";
+		 //constraints = "VXU-Z22_Constraints.xml";
+		 //valueSetLibrary = "VXU-Z22_ValueSetLibrary.xml";
 		// step h above
 		//
 		// Validate each message
 		//
+
+	
 		for (int i = 0; i < totalMessages; i++) {
 		    baseTablesOid=(String)map.get(baseTablesList.get(i));
 		    userTablesOid=(String)map.get(userTablesList.get(i));
 		    String tableOids = baseTablesOid + ":" + userTablesOid;
 		    System.out.println("\n\nValidating (using profile oid = " + map.get(profileList.get(i)) + " and table oid = " + tableOids  + ") and vc=" + validationContextFNList.get(i)+ ": " + messages[i].replaceAll("\r","\n") + "\n\n");
 		    String xmlResults = client.validate(messages[i],(String) map.get(profileList.get(i)), tableOids ,validationContextList.get(i));
+		   // String xmlResults2 = client.validateWithResources(messages[i], profile2, constraints , valueSetLibrary, messageId);
+		   // message, profile, constraints, valueSetLibrary,
+			//messageId
 		    
 		    System.out.println("validation context:\n " + validationContextList.get(i));
 		    
 		    System.out.println("Validation returned:\n " + xmlResults.replaceAll("\r","\n") + "\n\n\n");
 		}
+		
+    constraintsFN = "VXU-Z22_Constraints.xml";
+	 InputStream constraintsStream = HL7WSClient.class.getResourceAsStream("/files/"+constraintsFN);
+    constraints = IOUtils.toString(constraintsStream);
+    valueSetLibraryFN = "VXU-Z22_ValueSetLibrary.xml";
+	 InputStream valueSetLibraryStream = HL7WSClient.class.getResourceAsStream("/files/"+valueSetLibraryFN);
+    valueSetLibrary = IOUtils.toString(valueSetLibraryStream);
+    profile2FN = "NIST-VXU_V04.xml";
+	 InputStream profile2Stream = HL7WSClient.class.getResourceAsStream("/profiles/"+profile2FN);
+    profile2 = IOUtils.toString(profile2Stream);
+    message2FN = "TestMessage-2.txt";
+	 InputStream message2Stream = HL7WSClient.class.getResourceAsStream("/ITI-8-Source-A04/"+message2FN);
+    message2 = IOUtils.toString(message2Stream);
+    
+    String xmlResults2 = client.validateWithResources(message2, profile2, constraints , valueSetLibrary, messageId);
+	
+  System.out.println("Validation with Resources returned:\n " + xmlResults2.replaceAll("\r","\n") + "\n\n\n");
+   
 	}
+
 
 
 	private static URI getPath(String fn) {

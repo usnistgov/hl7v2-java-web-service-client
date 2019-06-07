@@ -142,6 +142,8 @@ public interface MessageValidationV2Interface {
 	String validate(String message, String oid, String xmlConfig,
 			String xmlValidationContext);
 
+	String validateWithResources(String message, String profile, String constraints,
+	String valueSetLibrary, String messageId);
 	/**
 	 * The getServiceStatus() method returns a list of the profiles and tables
 	 * currently supported by the validation service. Note that if the service

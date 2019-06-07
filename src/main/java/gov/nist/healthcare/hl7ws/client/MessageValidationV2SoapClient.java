@@ -27,5 +27,11 @@ public class MessageValidationV2SoapClient implements
 	public String loadResource(String resource, String oid, String type) {
 		return client.loadResource(resource, oid, type);
 	}
+	
+	public String validateWithResources(String message, String profile, String constraints,
+	String valueSetLibrary, String messageId){
+		return client.validateWithResources(message, profile, constraints, valueSetLibrary,
+		messageId);
+	}
 
 }
