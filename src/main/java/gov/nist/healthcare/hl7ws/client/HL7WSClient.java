@@ -76,6 +76,8 @@ public class HL7WSClient {
 		// Query the resources already loaded
 		xmlResourceList = client.getServiceStatus();
 		System.out.println("service status:\n" + xmlResourceList + "\n\n");
+		
+		//<xmlResourceList xmlns="http://www.nist.gov/healthcare/hl7ws/resourcelist">
 
 		
 		//
@@ -255,7 +257,7 @@ public class HL7WSClient {
     
     String xmlResults2 = client.validateWithResources(message2, profile2, constraints , valueSetLibrary, messageId);
 	
-  System.out.println("Validation with Resources returned:\n " + xmlResults2.replaceAll("\r","\n") + "\n\n\n");
+  System.out.println("Validation with Resources returned:\n\n " + xmlResults2.replaceAll("\r","\n") + "\n\n\n");
    
 	}
 
